@@ -16,7 +16,7 @@ name: 📈 Atualizar Indicadores de Ações
 on:
   # Agendamento diário — 08:00 BRT (11:00 UTC)
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "24 17 * * *"
 
   # Permite disparo manual pela interface do GitHub
   workflow_dispatch:

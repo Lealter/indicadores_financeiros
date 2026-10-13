@@ -2,37 +2,549 @@
   "_metadados": {
     "script": "Análise Fundamentalista de Ações",
     "versao": "1.1",
-    "data_execucao": "2026-10-12 20:02:25",
-    "total_ativos": 21,
-    "sucesso": 21,
+    "data_execucao": "2026-10-13 17:01:09",
+    "total_ativos": 5,
+    "sucesso": 5,
     "falhas": 0,
     "ativos_solicitados": [
-      "BBAS3.SA",
-      "ITUB4.SA",
-      "BBSE3.SA",
-      "WEGE3.SA",
-      "EMBJ3.SA",
-      "VALE3.SA",
-      "KLBN11.SA",
       "PETR4.SA",
-      "SAPR11.SA",
-      "CMIG4.SA",
-      "TAEE11.SA",
-      "AMZN",
-      "MCD",
-      "KO",
-      "BRK-B",
-      "BAC",
-      "AAPL",
-      "MSFT",
-      "NVDA",
-      "CVX",
-      "AZN"
+      "VALE3.SA",
+      "ITUB4.SA",
+      "BBAS3.SA",
+      "WEGE3.SA"
     ],
     "fonte": "Yahoo Finance via yfinance",
     "nota": "Sufixo _bi = bilhões | _mi = milhões | _pct = percentual já convertido. None indica dado indisponível na fonte."
   },
   "acoes": {
+    "PETR4.SA": {
+      "identificacao": {
+        "ticker": "PETR4.SA",
+        "nome": "Petróleo Brasileiro S.A. - Petrobras",
+        "setor": "Energy",
+        "industria": "Oil & Gas Integrated",
+        "pais": "Brazil",
+        "moeda": "BRL",
+        "bolsa": "SAO",
+        "site": "https://petrobras.com.br",
+        "resumo_negocio": "Petróleo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petróleo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil."
+      },
+      "meta": {
+        "data_coleta": "2026-10-13 17:01:07",
+        "fonte_principal": "Yahoo Finance via yfinance"
+      },
+      "valuation": {
+        "preco_atual": 56.5,
+        "pe_ratio_trailing": 5.386082,
+        "pe_ratio_forward": 4.160836,
+        "pb_ratio": 1.5140958,
+        "ps_ratio": 1.4074692,
+        "ev_ebitda": 4.26,
+        "ev_receita": 1.888,
+        "eps_ttm": 10.49,
+        "eps_forward": 13.579,
+        "dividend_yield_ttm_pct": 6.48,
+        "dividendo_por_acao": 3.66,
+        "payout_ratio_pct": 28.5,
+        "peg_ratio": 5.52
+      },
+      "rentabilidade": {
+        "gross_margin_pct": 50.6,
+        "operating_margin_pct": 44.68,
+        "profit_margin_pct": 24.32,
+        "roe_pct": 30.27,
+        "roa_pct": 10.07,
+        "roic_pct": 3.96,
+        "crescimento_receita_yoy_pct": 42.3,
+        "crescimento_lucro_yoy_pct": 96.8,
+        "crescimento_eps_qoq_pct": 96.8
+      },
+      "saude_financeira": {
+        "divida_bruta_bi": 366.533,
+        "divida_liquida_bi": 312.769,
+        "div_liq_sobre_pl": 1.54,
+        "div_liq_sobre_ebitda": 1.29,
+        "div_liq_sobre_ebit": 11.27,
+        "caixa_total_bi": 53.764,
+        "caixa_por_acao": 4.171,
+        "current_ratio": 0.854,
+        "quick_ratio": 0.535,
+        "book_value_por_acao": 37.316,
+        "ebitda_bi": 243.036,
+        "ebit_bi": 27.758,
+        "free_cash_flow_bi": 94.24,
+        "operating_cash_flow_bi": 214.359
+      },
+      "mercado": {
+        "market_cap_bi": 771.987,
+        "enterprise_value_bi": 1035.442,
+        "acoes_em_circulacao_bi": 5.447,
+        "float_acoes_bi": 7.884,
+        "beta": -0.226,
+        "52w_max": 56.88,
+        "52w_min": 29.31,
+        "media_50d": 46.7132,
+        "media_200d": 42.8096,
+        "volume_medio_30d": 43986611,
+        "short_ratio": null,
+        "insider_ownership_pct": 0.0,
+        "institutional_ownership_pct": 61.1
+      },
+      "historico_financeiro": {
+        "anual": [
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 89195.0,
+            "lucro_bruto_mi": 42459.0,
+            "ebitda_mi": 46038.0,
+            "lucro_liquido_mi": 19634.0,
+            "lucro_operacional_mi": 27758.0,
+            "pesquisa_desenv_mi": 864.0
+          },
+          {
+            "periodo": "2024-12-31",
+            "receita_total_mi": 91416.0,
+            "lucro_bruto_mi": 45972.0,
+            "ebitda_mi": 27462.0,
+            "lucro_liquido_mi": 7528.0,
+            "lucro_operacional_mi": 25691.0,
+            "pesquisa_desenv_mi": 789.0
+          },
+          {
+            "periodo": "2023-12-31",
+            "receita_total_mi": 102409.0,
+            "lucro_bruto_mi": 53974.0,
+            "ebitda_mi": 52292.0,
+            "lucro_liquido_mi": 24884.0,
+            "lucro_operacional_mi": 39473.0,
+            "pesquisa_desenv_mi": 726.0
+          },
+          {
+            "periodo": "2022-12-31",
+            "receita_total_mi": 124474.0,
+            "lucro_bruto_mi": 64988.0,
+            "ebitda_mi": 69933.0,
+            "lucro_liquido_mi": 36623.0,
+            "lucro_operacional_mi": 53265.0,
+            "pesquisa_desenv_mi": 792.0
+          },
+          {
+            "periodo": "2021-12-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ],
+        "trimestral": [
+          {
+            "periodo": "2026-06-30",
+            "receita_total_mi": 33607.0,
+            "lucro_bruto_mi": 19493.0,
+            "ebitda_mi": 19276.0,
+            "lucro_liquido_mi": 10428.0,
+            "lucro_operacional_mi": 14553.0,
+            "pesquisa_desenv_mi": 296.0
+          },
+          {
+            "periodo": "2026-03-31",
+            "receita_total_mi": 23483.2,
+            "lucro_bruto_mi": 11316.12,
+            "ebitda_mi": 13360.74,
+            "lucro_liquido_mi": 6201.44,
+            "lucro_operacional_mi": 6808.05,
+            "pesquisa_desenv_mi": 249.86
+          },
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 23608.0,
+            "lucro_bruto_mi": 10842.0,
+            "ebitda_mi": 8117.0,
+            "lucro_liquido_mi": 2899.0,
+            "lucro_operacional_mi": 7005.0,
+            "pesquisa_desenv_mi": 236.0
+          },
+          {
+            "periodo": "2025-09-30",
+            "receita_total_mi": 23477.0,
+            "lucro_bruto_mi": 11217.0,
+            "ebitda_mi": 13470.0,
+            "lucro_liquido_mi": 6027.0,
+            "lucro_operacional_mi": 7729.0,
+            "pesquisa_desenv_mi": 233.0
+          },
+          {
+            "periodo": "2025-06-30",
+            "receita_total_mi": 21037.0,
+            "lucro_bruto_mi": 10012.0,
+            "ebitda_mi": 11140.0,
+            "lucro_liquido_mi": 4734.0,
+            "lucro_operacional_mi": 5640.0,
+            "pesquisa_desenv_mi": 193.0
+          },
+          {
+            "periodo": "2025-03-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ]
+      }
+    },
+    "VALE3.SA": {
+      "identificacao": {
+        "ticker": "VALE3.SA",
+        "nome": "Vale S.A.",
+        "setor": "Basic Materials",
+        "industria": "Other Industrial Metals & Mining",
+        "pais": "Brazil",
+        "moeda": "BRL",
+        "bolsa": "SAO",
+        "site": "https://vale.com",
+        "resumo_negocio": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil."
+      },
+      "meta": {
+        "data_coleta": "2026-10-13 17:01:07",
+        "fonte_principal": "Yahoo Finance via yfinance"
+      },
+      "valuation": {
+        "preco_atual": 67.02,
+        "pe_ratio_trailing": 25.290564,
+        "pe_ratio_forward": 8.384537,
+        "pb_ratio": 1.4505237,
+        "ps_ratio": 1.3079401,
+        "ev_ebitda": 4.836,
+        "ev_receita": 1.715,
+        "eps_ttm": 2.65,
+        "eps_forward": 7.9932857,
+        "dividend_yield_ttm_pct": 6.52,
+        "dividendo_por_acao": 4.37,
+        "payout_ratio_pct": 151.34,
+        "peg_ratio": 0.29
+      },
+      "rentabilidade": {
+        "gross_margin_pct": 34.92,
+        "operating_margin_pct": 21.95,
+        "profit_margin_pct": 4.75,
+        "roe_pct": 4.11,
+        "roa_pct": 7.92,
+        "roic_pct": 1.75,
+        "crescimento_receita_yoy_pct": 6.4,
+        "crescimento_lucro_yoy_pct": -43.5,
+        "crescimento_eps_qoq_pct": -43.3
+      },
+      "saude_financeira": {
+        "divida_bruta_bi": 110.007,
+        "divida_liquida_bi": 80.165,
+        "div_liq_sobre_pl": 0.41,
+        "div_liq_sobre_ebitda": 1.04,
+        "div_liq_sobre_ebit": 7.07,
+        "caixa_total_bi": 29.842,
+        "caixa_por_acao": 7.012,
+        "current_ratio": 1.192,
+        "quick_ratio": 0.681,
+        "book_value_por_acao": 46.204,
+        "ebitda_bi": 77.333,
+        "ebit_bi": 11.343,
+        "free_cash_flow_bi": 13.309,
+        "operating_cash_flow_bi": 50.599
+      },
+      "mercado": {
+        "market_cap_bi": 285.221,
+        "enterprise_value_bi": 373.963,
+        "acoes_em_circulacao_bi": 4.256,
+        "float_acoes_bi": 3.964,
+        "beta": 0.699,
+        "52w_max": 91.62,
+        "52w_min": 59.22,
+        "media_50d": 74.2822,
+        "media_200d": 79.49255,
+        "volume_medio_30d": 21081022,
+        "short_ratio": null,
+        "insider_ownership_pct": 6.45,
+        "institutional_ownership_pct": 46.22
+      },
+      "historico_financeiro": {
+        "anual": [
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 38403.0,
+            "lucro_bruto_mi": 13456.0,
+            "ebitda_mi": 9799.0,
+            "lucro_liquido_mi": 2352.0,
+            "lucro_operacional_mi": 11343.0,
+            "pesquisa_desenv_mi": 693.0
+          },
+          {
+            "periodo": "2024-12-31",
+            "receita_total_mi": 38056.0,
+            "lucro_bruto_mi": 13791.0,
+            "ebitda_mi": 11090.0,
+            "lucro_liquido_mi": 6166.0,
+            "lucro_operacional_mi": 11101.0,
+            "pesquisa_desenv_mi": 790.0
+          },
+          {
+            "periodo": "2023-12-31",
+            "receita_total_mi": 41784.0,
+            "lucro_bruto_mi": 17695.0,
+            "ebitda_mi": 15590.0,
+            "lucro_liquido_mi": 7983.0,
+            "lucro_operacional_mi": 15859.0,
+            "pesquisa_desenv_mi": 723.0
+          },
+          {
+            "periodo": "2022-12-31",
+            "receita_total_mi": 43839.0,
+            "lucro_bruto_mi": 19811.0,
+            "ebitda_mi": 23897.0,
+            "lucro_liquido_mi": 18788.0,
+            "lucro_operacional_mi": 17795.0,
+            "pesquisa_desenv_mi": 660.0
+          },
+          {
+            "periodo": "2021-12-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ],
+        "trimestral": [
+          {
+            "periodo": "2026-03-31",
+            "receita_total_mi": 9258.0,
+            "lucro_bruto_mi": 3085.0,
+            "ebitda_mi": 3887.0,
+            "lucro_liquido_mi": 1893.0,
+            "lucro_operacional_mi": 2594.0,
+            "pesquisa_desenv_mi": 131.0
+          },
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 11060.0,
+            "lucro_bruto_mi": 4281.0,
+            "ebitda_mi": -97.0,
+            "lucro_liquido_mi": -3844.0,
+            "lucro_operacional_mi": 3497.0,
+            "pesquisa_desenv_mi": 260.0
+          },
+          {
+            "periodo": "2025-09-30",
+            "receita_total_mi": 10420.0,
+            "lucro_bruto_mi": 3788.0,
+            "ebitda_mi": 2909.0,
+            "lucro_liquido_mi": 2685.0,
+            "lucro_operacional_mi": 3191.0,
+            "pesquisa_desenv_mi": 151.0
+          },
+          {
+            "periodo": "2025-06-30",
+            "receita_total_mi": 8804.0,
+            "lucro_bruto_mi": 2719.0,
+            "ebitda_mi": 3230.0,
+            "lucro_liquido_mi": 2117.0,
+            "lucro_operacional_mi": 2174.0,
+            "pesquisa_desenv_mi": 159.0
+          },
+          {
+            "periodo": "2025-03-31",
+            "receita_total_mi": 8119.0,
+            "lucro_bruto_mi": 2668.0,
+            "ebitda_mi": 3032.0,
+            "lucro_liquido_mi": 1394.0,
+            "lucro_operacional_mi": 2199.0,
+            "pesquisa_desenv_mi": 123.0
+          }
+        ]
+      }
+    },
+    "ITUB4.SA": {
+      "identificacao": {
+        "ticker": "ITUB4.SA",
+        "nome": "Itaú Unibanco Holding S.A.",
+        "setor": "Financial Services",
+        "industria": "Banks - Regional",
+        "pais": "Brazil",
+        "moeda": "BRL",
+        "bolsa": "SAO",
+        "site": "https://www.itau.com.br",
+        "resumo_negocio": "Itaú Unibanco Holding S.A. provides various financial products and services to personal and corporate customers in Brazil and internationally. It operates through three segments: Retail Business, Wholesale Business and Activities with the Market + Corporation. The company offers current accounts; funds management; payments and collections; loans; credit and debit cards; investment and commercial banking services; real estate lending and financing services; economic, financial and brokerage advisory; and leasing and foreign exchange services. The company also provides non-life insurance products covering loss, damage, or liability for objects or people, as well as life insurance products covering death and personal accidents. It serves retail customers, account and non-account holders, individuals and legal entities, high income clients, microenterprises, and small companies, as well as middle-market companies and high net worth institutional clients. The company was formerly known as Itaú Unibanco Banco Múltiplo S.A. and changed its name to Itaú Unibanco Holding S.A. in April 2009. The company was incorporated in 1924 and is headquartered in São Paulo, Brazil. Itaú Unibanco Holding S.A. is a subsidiary of IUPAR - Itaú Unibanco Participações S.A."
+      },
+      "meta": {
+        "data_coleta": "2026-10-13 17:01:08",
+        "fonte_principal": "Yahoo Finance via yfinance"
+      },
+      "valuation": {
+        "preco_atual": 49.68,
+        "pe_ratio_trailing": 12.0,
+        "pe_ratio_forward": 9.860664,
+        "pb_ratio": 2.5142972,
+        "ps_ratio": 3.8101666,
+        "ev_ebitda": null,
+        "ev_receita": 8.338,
+        "eps_ttm": 4.14,
+        "eps_forward": 5.0382,
+        "dividend_yield_ttm_pct": 1.79,
+        "dividendo_por_acao": 0.89,
+        "payout_ratio_pct": 83.32,
+        "peg_ratio": 1.55
+      },
+      "rentabilidade": {
+        "gross_margin_pct": 0.0,
+        "operating_margin_pct": 39.07,
+        "profit_margin_pct": 32.58,
+        "roe_pct": 21.48,
+        "roa_pct": 1.58,
+        "roic_pct": null,
+        "crescimento_receita_yoy_pct": 17.5,
+        "crescimento_lucro_yoy_pct": 8.1,
+        "crescimento_eps_qoq_pct": 7.6
+      },
+      "saude_financeira": {
+        "divida_bruta_bi": 1115.894,
+        "divida_liquida_bi": 631.729,
+        "div_liq_sobre_pl": 5.92,
+        "div_liq_sobre_ebitda": null,
+        "div_liq_sobre_ebit": null,
+        "caixa_total_bi": 484.165,
+        "caixa_por_acao": 43.928,
+        "current_ratio": null,
+        "quick_ratio": null,
+        "book_value_por_acao": 19.759,
+        "ebitda_bi": null,
+        "ebit_bi": null,
+        "free_cash_flow_bi": null,
+        "operating_cash_flow_bi": 44.269
+      },
+      "mercado": {
+        "market_cap_bi": 547.574,
+        "enterprise_value_bi": 1198.25,
+        "acoes_em_circulacao_bi": 5.404,
+        "float_acoes_bi": 5.85,
+        "beta": 0.114,
+        "52w_max": 50.85,
+        "52w_min": 35.932037,
+        "media_50d": 42.0058,
+        "media_200d": 42.66145,
+        "volume_medio_30d": 27663509,
+        "short_ratio": null,
+        "insider_ownership_pct": 0.04,
+        "institutional_ownership_pct": 44.9
+      },
+      "historico_financeiro": {
+        "anual": [
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 165243.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 44857.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2024-12-31",
+            "receita_total_mi": 158568.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 41085.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2023-12-31",
+            "receita_total_mi": 148380.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 33105.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2022-12-31",
+            "receita_total_mi": 136376.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 29207.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2021-12-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ],
+        "trimestral": [
+          {
+            "periodo": "2026-06-30",
+            "receita_total_mi": 43954.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 11979.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2026-03-31",
+            "receita_total_mi": 41132.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 11636.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 42119.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 11907.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2025-09-30",
+            "receita_total_mi": 42166.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 11306.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2025-06-30",
+            "receita_total_mi": 38367.0,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": 11137.0,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2025-03-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ]
+      }
+    },
     "BBAS3.SA": {
       "identificacao": {
         "ticker": "BBAS3.SA",
@@ -46,20 +558,20 @@
         "resumo_negocio": "Banco do Brasil S.A., together with its subsidiaries, provides banking products and services for individuals, companies, and public sectors in Brazil and internationally. The company operates through Banking, Investments, Fund Management, Insurance (including insurance, private pension funds and capitalization) and Electronic Payments segments. Its Banking segment offers various products and services, including deposits, loans, and other services to retail, wholesale, and public sectors. This segment also engages in the business with micro-entrepreneurs and other activities through banking correspondents. Its Investments segment engages in the structuring and distribution of debt and equity instruments in the primary and secondary markets; and provision of financial services. The company's Fund Management segment is involved in the purchase, sale, and custody of securities and portfolio management; and the structuring, organization, and management of investment funds and clubs. Its Insurance segment provides life, property, and automobile insurance products, as well as private pension and capitalization plans. The company's Electronic Payment segment provides capture, transmission, processing, and financial settlement services for electronic payment transactions. Its Other segment engages in the provision of credit recovery and consortium management services. This segment is also involved in the development, manufacturing, sale, rental, and integration of digital electronic systems, peripherals, programs, inputs, and computing supplies. The company was incorporated in 1808 and is headquartered in Brasília, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-10-12 20:02:07",
+        "data_coleta": "2026-10-13 17:01:08",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 24.64,
-        "pe_ratio_trailing": 11.4604645,
-        "pe_ratio_forward": 5.755463,
-        "pb_ratio": 0.7729711,
-        "ps_ratio": 1.8748239,
+        "preco_atual": 24.31,
+        "pe_ratio_trailing": 11.306976,
+        "pe_ratio_forward": 5.678381,
+        "pb_ratio": 0.7626188,
+        "ps_ratio": 1.8497308,
         "ev_ebitda": null,
         "ev_receita": 12.339,
         "eps_ttm": 2.15,
         "eps_forward": 4.28115,
-        "dividend_yield_ttm_pct": 0.57,
+        "dividend_yield_ttm_pct": 0.58,
         "dividendo_por_acao": 0.14,
         "payout_ratio_pct": 11.52,
         "peg_ratio": 0.3
@@ -92,7 +604,7 @@
         "operating_cash_flow_bi": 39.423
       },
       "mercado": {
-        "market_cap_bi": 140.667,
+        "market_cap_bi": 138.784,
         "enterprise_value_bi": 925.803,
         "acoes_em_circulacao_bi": 5.709,
         "float_acoes_bi": 2.587,
@@ -101,7 +613,7 @@
         "52w_min": 17.79,
         "media_50d": 21.3942,
         "media_200d": 22.20055,
-        "volume_medio_30d": 34141703,
+        "volume_medio_30d": 34459215,
         "short_ratio": null,
         "insider_ownership_pct": 50.0,
         "institutional_ownership_pct": 16.86
@@ -212,355 +724,6 @@
         ]
       }
     },
-    "ITUB4.SA": {
-      "identificacao": {
-        "ticker": "ITUB4.SA",
-        "nome": "Itaú Unibanco Holding S.A.",
-        "setor": "Financial Services",
-        "industria": "Banks - Regional",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://www.itau.com.br",
-        "resumo_negocio": "Itaú Unibanco Holding S.A. provides various financial products and services to personal and corporate customers in Brazil and internationally. It operates through three segments: Retail Business, Wholesale Business and Activities with the Market + Corporation. The company offers current accounts; funds management; payments and collections; loans; credit and debit cards; investment and commercial banking services; real estate lending and financing services; economic, financial and brokerage advisory; and leasing and foreign exchange services. The company also provides non-life insurance products covering loss, damage, or liability for objects or people, as well as life insurance products covering death and personal accidents. It serves retail customers, account and non-account holders, individuals and legal entities, high income clients, microenterprises, and small companies, as well as middle-market companies and high net worth institutional clients. The company was formerly known as Itaú Unibanco Banco Múltiplo S.A. and changed its name to Itaú Unibanco Holding S.A. in April 2009. The company was incorporated in 1924 and is headquartered in São Paulo, Brazil. Itaú Unibanco Holding S.A. is a subsidiary of IUPAR - Itaú Unibanco Participações S.A."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:08",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 50.47,
-        "pe_ratio_trailing": 12.190822,
-        "pe_ratio_forward": 10.017467,
-        "pb_ratio": 2.554279,
-        "ps_ratio": 3.8707547,
-        "ev_ebitda": null,
-        "ev_receita": 8.338,
-        "eps_ttm": 4.14,
-        "eps_forward": 5.0382,
-        "dividend_yield_ttm_pct": 1.76,
-        "dividendo_por_acao": 0.89,
-        "payout_ratio_pct": 83.32,
-        "peg_ratio": 1.55
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 0.0,
-        "operating_margin_pct": 39.07,
-        "profit_margin_pct": 32.58,
-        "roe_pct": 21.48,
-        "roa_pct": 1.58,
-        "roic_pct": null,
-        "crescimento_receita_yoy_pct": 17.5,
-        "crescimento_lucro_yoy_pct": 8.1,
-        "crescimento_eps_qoq_pct": 7.6
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 1115.894,
-        "divida_liquida_bi": 631.729,
-        "div_liq_sobre_pl": 5.92,
-        "div_liq_sobre_ebitda": null,
-        "div_liq_sobre_ebit": null,
-        "caixa_total_bi": 484.165,
-        "caixa_por_acao": 43.928,
-        "current_ratio": null,
-        "quick_ratio": null,
-        "book_value_por_acao": 19.759,
-        "ebitda_bi": null,
-        "ebit_bi": null,
-        "free_cash_flow_bi": null,
-        "operating_cash_flow_bi": 44.269
-      },
-      "mercado": {
-        "market_cap_bi": 556.282,
-        "enterprise_value_bi": 1198.25,
-        "acoes_em_circulacao_bi": 5.404,
-        "float_acoes_bi": 5.85,
-        "beta": 0.114,
-        "52w_max": 50.85,
-        "52w_min": 35.932037,
-        "media_50d": 42.0058,
-        "media_200d": 42.66145,
-        "volume_medio_30d": 27508609,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.02,
-        "institutional_ownership_pct": 44.94
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 165243.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 44857.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 158568.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 41085.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 148380.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 33105.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 136376.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 29207.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 43954.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 11979.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 41132.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 11636.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 42119.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 11907.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 42166.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 11306.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 38367.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 11137.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "BBSE3.SA": {
-      "identificacao": {
-        "ticker": "BBSE3.SA",
-        "nome": "BB Seguridade Participações S.A.",
-        "setor": "Financial Services",
-        "industria": "Insurance - Diversified",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://www.bbseguridaderi.com.br",
-        "resumo_negocio": "BB Seguridade Participações S.A., through its subsidiaries operates in the insurance, pension plans, and bonds, businesses in Brazil. The company operates through two segments, Insurance and Brokerage. The Insurance segment offers insurance products and services, including life, property and vehicle insurance, property insurance, rural, special risks and financial, transport, hulls, and housing people, as well as supplementary pension, dental, and capitalization plans. Its Brokerage segment engages in the brokerage and administration, implementation, promotion, and viability of insurance businesses in the basic, life, and capitalization sectors, as well as open pension plans and dental plans. The company was founded in 1981 and is headquartered in Brasília, Brazil. BB Seguridade Participações S.A. operates as a subsidiary of Banco do Brasil S.A."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:13",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 40.82,
-        "pe_ratio_trailing": 8.630021,
-        "pe_ratio_forward": 9.285757,
-        "pb_ratio": 7.2762923,
-        "ps_ratio": 7.5823474,
-        "ev_ebitda": 7.292,
-        "ev_receita": 6.963,
-        "eps_ttm": 4.73,
-        "eps_forward": 4.39598,
-        "dividend_yield_ttm_pct": 11.24,
-        "dividendo_por_acao": 4.59,
-        "payout_ratio_pct": 96.17,
-        "peg_ratio": null
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 98.23,
-        "operating_margin_pct": 96.4,
-        "profit_margin_pct": 87.93,
-        "roe_pct": 85.94,
-        "roa_pct": 28.81,
-        "roic_pct": null,
-        "crescimento_receita_yoy_pct": -0.9,
-        "crescimento_lucro_yoy_pct": -0.1,
-        "crescimento_eps_qoq_pct": -0.1
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": null,
-        "divida_liquida_bi": null,
-        "div_liq_sobre_pl": -0.59,
-        "div_liq_sobre_ebitda": -0.65,
-        "div_liq_sobre_ebit": null,
-        "caixa_total_bi": 6.471,
-        "caixa_por_acao": 3.333,
-        "current_ratio": 1.148,
-        "quick_ratio": 1.148,
-        "book_value_por_acao": 5.61,
-        "ebitda_bi": 9.98,
-        "ebit_bi": null,
-        "free_cash_flow_bi": 5.831,
-        "operating_cash_flow_bi": 3.463
-      },
-      "mercado": {
-        "market_cap_bi": 79.242,
-        "enterprise_value_bi": 72.771,
-        "acoes_em_circulacao_bi": 1.941,
-        "float_acoes_bi": 0.616,
-        "beta": 0.089,
-        "52w_max": 42.98,
-        "52w_min": 31.68,
-        "media_50d": 39.635,
-        "media_200d": 37.12865,
-        "volume_medio_30d": 6500726,
-        "short_ratio": null,
-        "insider_ownership_pct": 68.25,
-        "institutional_ownership_pct": 13.26
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 6136.48,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 9017.33,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 5539.52,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 8703.35,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 5068.59,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 7947.2,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 4643.61,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 6196.41,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 1485.74,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 2412.73,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 1601.38,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 2139.44,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 1510.68,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 2302.8,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 1498.21,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 2415.91,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": 1489.17,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 1964.27,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
     "WEGE3.SA": {
       "identificacao": {
         "ticker": "WEGE3.SA",
@@ -574,20 +737,20 @@
         "resumo_negocio": "WEG S.A. produces and sells capital goods in Brazil and internationally. The company offers electric motors, generators, and transformers; reducers and gearmotors; hydraulic and steam turbines; frequency converters, starters engines and switching devices; control and protection of electrical circuits for industrial automation; sockets and switches; and solutions for electric traction of heavy vehicles, utility and locomotives, and electric propulsion of naval transport. It also provides solutions for generating renewable and distributed energy, in small hydroelectric plants, biomass, wind and solar; solutions for industry; UPSs and alternators for generator sets; substations electrical, conventional and mobile; industrial electronic systems; industrial paints, varnishes, and paints for automotive repainting. WEG S.A. was founded in 1961 and is headquartered in Jaraguá do Sul, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-10-12 20:02:13",
+        "data_coleta": "2026-10-13 17:01:09",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 51.47,
-        "pe_ratio_trailing": 34.543625,
-        "pe_ratio_forward": 28.16385,
-        "pb_ratio": 11.450501,
-        "ps_ratio": 5.38147,
+        "preco_atual": 51.07,
+        "pe_ratio_trailing": 34.275166,
+        "pe_ratio_forward": 27.775663,
+        "pb_ratio": 11.361513,
+        "ps_ratio": 5.339648,
         "ev_ebitda": 25.24,
         "ev_receita": 5.341,
         "eps_ttm": 1.49,
-        "eps_forward": 1.82752,
-        "dividend_yield_ttm_pct": 3.01,
+        "eps_forward": 1.83866,
+        "dividend_yield_ttm_pct": 3.04,
         "dividendo_por_acao": 1.55,
         "payout_ratio_pct": 123.2,
         "peg_ratio": 1.15
@@ -620,16 +783,16 @@
         "operating_cash_flow_bi": 6.935
       },
       "mercado": {
-        "market_cap_bi": 215.959,
+        "market_cap_bi": 214.281,
         "enterprise_value_bi": 214.323,
         "acoes_em_circulacao_bi": 4.196,
         "float_acoes_bi": 1.461,
         "beta": -0.012,
         "52w_max": 54.53,
-        "52w_min": 36.78,
+        "52w_min": 37.28,
         "media_50d": 50.0206,
         "media_200d": 47.86055,
-        "volume_medio_30d": 8638318,
+        "volume_medio_30d": 8613625,
         "short_ratio": null,
         "insider_ownership_pct": 65.17,
         "institutional_ownership_pct": 12.78
@@ -726,2932 +889,6 @@
             "ebitda_mi": 2251.81,
             "lucro_liquido_mi": 1546.04,
             "lucro_operacional_mi": 1906.96,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "EMBJ3.SA": {
-      "identificacao": {
-        "ticker": "EMBJ3.SA",
-        "nome": "Embraer S.A.",
-        "setor": "Industrials",
-        "industria": "Aerospace & Defense",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://embraer.com",
-        "resumo_negocio": "Embraer S.A., together with its subsidiaries, engages in the design, development, manufacture, and sale of aircraft and systems worldwide. The company operates through Commercial Aviation; Defense & Security; Executive Aviation; Services & Support; and Other segments. The Commercial Aviation segment develops, produces, and sells commercial jets. The Defense & Security segment develops and produces military aircraft; and is involved in research and development of software and integrated information systems, communications, border monitoring and surveillance, space systems/satellites, and aircraft modernization services and services support, as well as command, control, communications, computer, intelligence, surveillance, and reconnaissance systems. The Executive Aviation segment develops, produces, and sells executive jets. The Service & Support segment provides field and technical support, flight operations solutions, aircraft modification, materials management, maintenance solutions, and training programs. The Other segment engages in the supply of structural parts and hydraulic systems; production of agricultural crop-spraying aircraft; development and certification of eVTOLs; creation of a maintenance and service network, and air traffic control system for eVTOLs; development and manufacture of electrical propulsion systems; cybersecurity; and software and technical products. Additionally, the company is involved in leasing of used aircraft; pilot, mechanic, and crew training; engineering services; retail trade, maintenance, and repair of computer products; information technology consulting, data processing, application service providers, and internet hosting; and fabrication of aircraft interiors. The company was formerly known as Embraer-Empresa Brasileira de Aeronáutica S.A. and changed its name to Embraer S.A. in November 2010. Embraer S.A. was founded in 1969 and is headquartered in São Paulo, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:14",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 89.21,
-        "pe_ratio_trailing": 27.281345,
-        "pe_ratio_forward": 16.300308,
-        "pb_ratio": 3.5464122,
-        "ps_ratio": 1.4390581,
-        "ev_ebitda": 14.278,
-        "ev_receita": 1.539,
-        "eps_ttm": 3.27,
-        "eps_forward": 5.472903,
-        "dividend_yield_ttm_pct": 1.24,
-        "dividendo_por_acao": 1.11,
-        "payout_ratio_pct": 29.6,
-        "peg_ratio": 29.98
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 17.85,
-        "operating_margin_pct": 12.98,
-        "profit_margin_pct": 5.28,
-        "roe_pct": 12.19,
-        "roa_pct": 3.7,
-        "roic_pct": 2.98,
-        "crescimento_receita_yoy_pct": 10.4,
-        "crescimento_lucro_yoy_pct": 113.9,
-        "crescimento_eps_qoq_pct": 141.6
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 13.665,
-        "divida_liquida_bi": 2.491,
-        "div_liq_sobre_pl": 0.14,
-        "div_liq_sobre_ebitda": 0.52,
-        "div_liq_sobre_ebit": 4.09,
-        "caixa_total_bi": 11.175,
-        "caixa_por_acao": 15.698,
-        "current_ratio": 1.439,
-        "quick_ratio": 0.636,
-        "book_value_por_acao": 25.155,
-        "ebitda_bi": 4.757,
-        "ebit_bi": 0.609,
-        "free_cash_flow_bi": 1.675,
-        "operating_cash_flow_bi": 6.283
-      },
-      "mercado": {
-        "market_cap_bi": 63.503,
-        "enterprise_value_bi": 67.918,
-        "acoes_em_circulacao_bi": 0.712,
-        "float_acoes_bi": 0.672,
-        "beta": 0.683,
-        "52w_max": 105.5,
-        "52w_min": 68.08,
-        "media_50d": 95.6502,
-        "media_200d": 86.8163,
-        "volume_medio_30d": 5402107,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 35.29
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 7577.5,
-            "lucro_bruto_mi": 1328.7,
-            "ebitda_mi": 724.1,
-            "lucro_liquido_mi": 351.9,
-            "lucro_operacional_mi": 608.5,
-            "pesquisa_desenv_mi": 74.4
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 6394.7,
-            "lucro_bruto_mi": 1153.1,
-            "ebitda_mi": 1013.1,
-            "lucro_liquido_mi": 352.5,
-            "lucro_operacional_mi": 667.2,
-            "pesquisa_desenv_mi": 55.0
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 5268.5,
-            "lucro_bruto_mi": 909.6,
-            "ebitda_mi": 598.2,
-            "lucro_liquido_mi": 164.0,
-            "lucro_operacional_mi": 262.1,
-            "pesquisa_desenv_mi": 90.3
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 4540.4,
-            "lucro_bruto_mi": 912.2,
-            "ebitda_mi": 228.4,
-            "lucro_liquido_mi": -185.4,
-            "lucro_operacional_mi": 220.4,
-            "pesquisa_desenv_mi": 110.0
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 2235.3,
-            "lucro_bruto_mi": 444.8,
-            "ebitda_mi": 403.0,
-            "lucro_liquido_mi": 212.6,
-            "lucro_operacional_mi": 288.4,
-            "pesquisa_desenv_mi": 39.1
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 1446.7,
-            "lucro_bruto_mi": 260.2,
-            "ebitda_mi": 181.0,
-            "lucro_liquido_mi": 33.4,
-            "lucro_operacional_mi": 81.5,
-            "pesquisa_desenv_mi": 15.5
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 2651.8,
-            "lucro_bruto_mi": 442.2,
-            "ebitda_mi": 17.9,
-            "lucro_liquido_mi": 83.3,
-            "lucro_operacional_mi": 212.4,
-            "pesquisa_desenv_mi": 31.1
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 1819.2,
-            "lucro_bruto_mi": 352.9,
-            "ebitda_mi": 240.4,
-            "lucro_liquido_mi": 78.6,
-            "lucro_operacional_mi": 180.6,
-            "pesquisa_desenv_mi": 12.1
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": 1103.0,
-            "lucro_bruto_mi": 189.1,
-            "ebitda_mi": 188.4,
-            "lucro_liquido_mi": 73.4,
-            "lucro_operacional_mi": 53.7,
-            "pesquisa_desenv_mi": 14.2
-          }
-        ]
-      }
-    },
-    "VALE3.SA": {
-      "identificacao": {
-        "ticker": "VALE3.SA",
-        "nome": "Vale S.A.",
-        "setor": "Basic Materials",
-        "industria": "Other Industrial Metals & Mining",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://vale.com",
-        "resumo_negocio": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:15",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 67.9,
-        "pe_ratio_trailing": 25.62264,
-        "pe_ratio_forward": 8.49463,
-        "pb_ratio": 1.4695698,
-        "ps_ratio": 1.325114,
-        "ev_ebitda": 4.836,
-        "ev_receita": 1.715,
-        "eps_ttm": 2.65,
-        "eps_forward": 7.9932857,
-        "dividend_yield_ttm_pct": 6.44,
-        "dividendo_por_acao": 4.37,
-        "payout_ratio_pct": 151.34,
-        "peg_ratio": 0.29
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 34.92,
-        "operating_margin_pct": 21.95,
-        "profit_margin_pct": 4.75,
-        "roe_pct": 4.11,
-        "roa_pct": 7.92,
-        "roic_pct": 1.75,
-        "crescimento_receita_yoy_pct": 6.4,
-        "crescimento_lucro_yoy_pct": -43.5,
-        "crescimento_eps_qoq_pct": -43.3
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 110.007,
-        "divida_liquida_bi": 80.165,
-        "div_liq_sobre_pl": 0.41,
-        "div_liq_sobre_ebitda": 1.04,
-        "div_liq_sobre_ebit": 7.07,
-        "caixa_total_bi": 29.842,
-        "caixa_por_acao": 7.012,
-        "current_ratio": 1.192,
-        "quick_ratio": 0.681,
-        "book_value_por_acao": 46.204,
-        "ebitda_bi": 77.333,
-        "ebit_bi": 11.343,
-        "free_cash_flow_bi": 13.309,
-        "operating_cash_flow_bi": 50.599
-      },
-      "mercado": {
-        "market_cap_bi": 288.966,
-        "enterprise_value_bi": 373.963,
-        "acoes_em_circulacao_bi": 4.256,
-        "float_acoes_bi": 3.964,
-        "beta": 0.699,
-        "52w_max": 91.62,
-        "52w_min": 59.22,
-        "media_50d": 74.2822,
-        "media_200d": 79.49255,
-        "volume_medio_30d": 21005348,
-        "short_ratio": null,
-        "insider_ownership_pct": 6.45,
-        "institutional_ownership_pct": 46.22
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 38403.0,
-            "lucro_bruto_mi": 13456.0,
-            "ebitda_mi": 9799.0,
-            "lucro_liquido_mi": 2352.0,
-            "lucro_operacional_mi": 11343.0,
-            "pesquisa_desenv_mi": 693.0
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 38056.0,
-            "lucro_bruto_mi": 13791.0,
-            "ebitda_mi": 11090.0,
-            "lucro_liquido_mi": 6166.0,
-            "lucro_operacional_mi": 11101.0,
-            "pesquisa_desenv_mi": 790.0
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 41784.0,
-            "lucro_bruto_mi": 17695.0,
-            "ebitda_mi": 15590.0,
-            "lucro_liquido_mi": 7983.0,
-            "lucro_operacional_mi": 15859.0,
-            "pesquisa_desenv_mi": 723.0
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 43839.0,
-            "lucro_bruto_mi": 19811.0,
-            "ebitda_mi": 23897.0,
-            "lucro_liquido_mi": 18788.0,
-            "lucro_operacional_mi": 17795.0,
-            "pesquisa_desenv_mi": 660.0
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 10498.0,
-            "lucro_bruto_mi": 3204.0,
-            "ebitda_mi": 3033.0,
-            "lucro_liquido_mi": 1375.0,
-            "lucro_operacional_mi": 2367.0,
-            "pesquisa_desenv_mi": 185.0
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 9258.0,
-            "lucro_bruto_mi": 3085.0,
-            "ebitda_mi": 3887.0,
-            "lucro_liquido_mi": 1893.0,
-            "lucro_operacional_mi": 2606.0,
-            "pesquisa_desenv_mi": 131.0
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 11060.0,
-            "lucro_bruto_mi": 4281.0,
-            "ebitda_mi": -932.0,
-            "lucro_liquido_mi": -3844.0,
-            "lucro_operacional_mi": 3497.0,
-            "pesquisa_desenv_mi": 260.0
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 10420.0,
-            "lucro_bruto_mi": 3788.0,
-            "ebitda_mi": 2909.0,
-            "lucro_liquido_mi": 2685.0,
-            "lucro_operacional_mi": 3191.0,
-            "pesquisa_desenv_mi": 151.0
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 8804.0,
-            "lucro_bruto_mi": 2719.0,
-            "ebitda_mi": 3305.0,
-            "lucro_liquido_mi": 2117.0,
-            "lucro_operacional_mi": 2264.0,
-            "pesquisa_desenv_mi": 159.0
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "KLBN11.SA": {
-      "identificacao": {
-        "ticker": "KLBN11.SA",
-        "nome": "Klabin S.A.",
-        "setor": "Basic Materials",
-        "industria": "Paper & Paper Products",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://www.klabin.com.br",
-        "resumo_negocio": "Klabin S.A., together with its subsidiaries, produces and exports packaging paper and sustainable paper packaging solutions in Brazil and internationally. The company operates through Forestry, Pulp, Paper, and Packaging segments. It engages in the planting and growing of pine and eucalyptus trees, and in the forest management business. The company is also involved in the sale of commercial timber. In addition, it produces and sells hardwood (eucalyptus), softwood (pine), and fluff pulp, as well as paperboard, Kraftliner paper, recycled paper, corrugated cardboard boxes, corrugated cardboard, and industrial sacks. Klabin S.A. was founded in 1899, and is headquartered in São Paulo, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:16",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 18.13,
-        "pe_ratio_trailing": 27.428137,
-        "pe_ratio_forward": 10.580744,
-        "pb_ratio": 2.3517964,
-        "ps_ratio": 6.2272887,
-        "ev_ebitda": 8.311,
-        "ev_receita": 2.677,
-        "eps_ttm": 0.661,
-        "eps_forward": 1.71349,
-        "dividend_yield_ttm_pct": 6.4,
-        "dividendo_por_acao": 1.16,
-        "payout_ratio_pct": null,
-        "peg_ratio": null
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 24.92,
-        "operating_margin_pct": 12.39,
-        "profit_margin_pct": 0.85,
-        "roe_pct": 3.65,
-        "roa_pct": 2.09,
-        "roic_pct": 8.36,
-        "crescimento_receita_yoy_pct": -1.8,
-        "crescimento_lucro_yoy_pct": -51.7,
-        "crescimento_eps_qoq_pct": -51.6
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 36.7,
-        "divida_liquida_bi": 26.591,
-        "div_liq_sobre_pl": 2.84,
-        "div_liq_sobre_ebitda": 3.99,
-        "div_liq_sobre_ebit": 6.24,
-        "caixa_total_bi": 10.109,
-        "caixa_por_acao": 8.215,
-        "current_ratio": 2.002,
-        "quick_ratio": 1.482,
-        "book_value_por_acao": 7.709,
-        "ebitda_bi": 6.665,
-        "ebit_bi": 4.264,
-        "free_cash_flow_bi": 2.129,
-        "operating_cash_flow_bi": 5.63
-      },
-      "mercado": {
-        "market_cap_bi": 128.833,
-        "enterprise_value_bi": 55.389,
-        "acoes_em_circulacao_bi": 1.215,
-        "float_acoes_bi": 1.231,
-        "beta": 0.002,
-        "52w_max": 21.25,
-        "52w_min": 16.1,
-        "media_50d": 18.5846,
-        "media_200d": 18.36925,
-        "volume_medio_30d": 5455348,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 31.34
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 20697.51,
-            "lucro_bruto_mi": 7324.91,
-            "ebitda_mi": 10533.51,
-            "lucro_liquido_mi": 1403.13,
-            "lucro_operacional_mi": 4264.39,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 19645.26,
-            "lucro_bruto_mi": 7371.52,
-            "ebitda_mi": 9324.04,
-            "lucro_liquido_mi": 1831.01,
-            "lucro_operacional_mi": 4608.19,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 18023.75,
-            "lucro_bruto_mi": 6849.45,
-            "ebitda_mi": 9225.03,
-            "lucro_liquido_mi": 2694.54,
-            "lucro_operacional_mi": 4322.39,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 20032.7,
-            "lucro_bruto_mi": 9514.85,
-            "ebitda_mi": 10925.37,
-            "lucro_liquido_mi": 4461.25,
-            "lucro_operacional_mi": 6662.21,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 5150.71,
-            "lucro_bruto_mi": 1747.27,
-            "ebitda_mi": 2534.03,
-            "lucro_liquido_mi": 386.58,
-            "lucro_operacional_mi": 946.03,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 4945.96,
-            "lucro_bruto_mi": 504.03,
-            "ebitda_mi": 1162.76,
-            "lucro_liquido_mi": -530.06,
-            "lucro_operacional_mi": -244.98,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 5165.3,
-            "lucro_bruto_mi": 1482.26,
-            "ebitda_mi": 2232.54,
-            "lucro_liquido_mi": 81.25,
-            "lucro_operacional_mi": 799.14,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 5247.2,
-            "lucro_bruto_mi": 2149.46,
-            "ebitda_mi": 2677.73,
-            "lucro_liquido_mi": 572.07,
-            "lucro_operacional_mi": 1343.3,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": 4858.53,
-            "lucro_bruto_mi": 1634.54,
-            "ebitda_mi": 2864.66,
-            "lucro_liquido_mi": 401.24,
-            "lucro_operacional_mi": 954.42,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "PETR4.SA": {
-      "identificacao": {
-        "ticker": "PETR4.SA",
-        "nome": "Petróleo Brasileiro S.A. - Petrobras",
-        "setor": "Energy",
-        "industria": "Oil & Gas Integrated",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://petrobras.com.br",
-        "resumo_negocio": "Petróleo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petróleo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:17",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 56.0,
-        "pe_ratio_trailing": 5.3384175,
-        "pe_ratio_forward": 4.124015,
-        "pb_ratio": 1.5006967,
-        "ps_ratio": 1.3950137,
-        "ev_ebitda": 4.26,
-        "ev_receita": 1.888,
-        "eps_ttm": 10.49,
-        "eps_forward": 13.579,
-        "dividend_yield_ttm_pct": 6.54,
-        "dividendo_por_acao": 3.66,
-        "payout_ratio_pct": 28.5,
-        "peg_ratio": 5.52
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 50.6,
-        "operating_margin_pct": 44.68,
-        "profit_margin_pct": 24.32,
-        "roe_pct": 30.27,
-        "roa_pct": 10.07,
-        "roic_pct": 3.96,
-        "crescimento_receita_yoy_pct": 42.3,
-        "crescimento_lucro_yoy_pct": 96.8,
-        "crescimento_eps_qoq_pct": 96.8
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 366.533,
-        "divida_liquida_bi": 312.769,
-        "div_liq_sobre_pl": 1.54,
-        "div_liq_sobre_ebitda": 1.29,
-        "div_liq_sobre_ebit": 11.27,
-        "caixa_total_bi": 53.764,
-        "caixa_por_acao": 4.171,
-        "current_ratio": 0.854,
-        "quick_ratio": 0.535,
-        "book_value_por_acao": 37.316,
-        "ebitda_bi": 243.036,
-        "ebit_bi": 27.758,
-        "free_cash_flow_bi": 94.24,
-        "operating_cash_flow_bi": 214.359
-      },
-      "mercado": {
-        "market_cap_bi": 765.155,
-        "enterprise_value_bi": 1035.442,
-        "acoes_em_circulacao_bi": 5.447,
-        "float_acoes_bi": 7.884,
-        "beta": -0.226,
-        "52w_max": 56.8,
-        "52w_min": 29.31,
-        "media_50d": 46.7132,
-        "media_200d": 42.8096,
-        "volume_medio_30d": 43971909,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 61.09
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 89195.0,
-            "lucro_bruto_mi": 42459.0,
-            "ebitda_mi": 46038.0,
-            "lucro_liquido_mi": 19634.0,
-            "lucro_operacional_mi": 27758.0,
-            "pesquisa_desenv_mi": 864.0
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 91416.0,
-            "lucro_bruto_mi": 45972.0,
-            "ebitda_mi": 27462.0,
-            "lucro_liquido_mi": 7528.0,
-            "lucro_operacional_mi": 25691.0,
-            "pesquisa_desenv_mi": 789.0
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 102409.0,
-            "lucro_bruto_mi": 53974.0,
-            "ebitda_mi": 52292.0,
-            "lucro_liquido_mi": 24884.0,
-            "lucro_operacional_mi": 39473.0,
-            "pesquisa_desenv_mi": 726.0
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 124474.0,
-            "lucro_bruto_mi": 64988.0,
-            "ebitda_mi": 69933.0,
-            "lucro_liquido_mi": 36623.0,
-            "lucro_operacional_mi": 53265.0,
-            "pesquisa_desenv_mi": 792.0
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 33607.0,
-            "lucro_bruto_mi": 19493.0,
-            "ebitda_mi": 19276.0,
-            "lucro_liquido_mi": 10428.0,
-            "lucro_operacional_mi": 14553.0,
-            "pesquisa_desenv_mi": 296.0
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 23483.2,
-            "lucro_bruto_mi": 11316.12,
-            "ebitda_mi": 13360.74,
-            "lucro_liquido_mi": 6201.44,
-            "lucro_operacional_mi": 6808.05,
-            "pesquisa_desenv_mi": 249.86
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 23608.0,
-            "lucro_bruto_mi": 10842.0,
-            "ebitda_mi": 8117.0,
-            "lucro_liquido_mi": 2899.0,
-            "lucro_operacional_mi": 7005.0,
-            "pesquisa_desenv_mi": 236.0
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 23477.0,
-            "lucro_bruto_mi": 11217.0,
-            "ebitda_mi": 13470.0,
-            "lucro_liquido_mi": 6027.0,
-            "lucro_operacional_mi": 7729.0,
-            "pesquisa_desenv_mi": 233.0
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 21037.0,
-            "lucro_bruto_mi": 10012.0,
-            "ebitda_mi": 11140.0,
-            "lucro_liquido_mi": 4734.0,
-            "lucro_operacional_mi": 5640.0,
-            "pesquisa_desenv_mi": 193.0
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "SAPR11.SA": {
-      "identificacao": {
-        "ticker": "SAPR11.SA",
-        "nome": "Companhia de Saneamento do Paraná - SANEPAR",
-        "setor": "Utilities",
-        "industria": "Utilities - Regulated Water",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://www.sanepar.com.br",
-        "resumo_negocio": "Companhia de Saneamento do Paraná - SANEPAR provides sanitation services in Brazil. The company engages in water distribution; collection and treatment of sewage and solid waste; study, project, and construction work of new facilities; expansion of water distribution networks; and collection and treatment of sewage networks. It also provides consultancy and technical assistance services in its areas of activity. Companhia de Saneamento do Paraná - SANEPAR was founded in 1963 and is headquartered in Curitiba, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:17",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 45.07,
-        "pe_ratio_trailing": 55.710754,
-        "pe_ratio_forward": 7.8656197,
-        "pb_ratio": 1.1254276,
-        "ps_ratio": 1.8059999,
-        "ev_ebitda": 5.561,
-        "ev_receita": 2.149,
-        "eps_ttm": 0.809,
-        "eps_forward": 5.73,
-        "dividend_yield_ttm_pct": 2.44,
-        "dividendo_por_acao": 1.1,
-        "payout_ratio_pct": null,
-        "peg_ratio": null
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 57.51,
-        "operating_margin_pct": 33.5,
-        "profit_margin_pct": 6.04,
-        "roe_pct": 3.81,
-        "roa_pct": 5.91,
-        "roic_pct": 0.96,
-        "crescimento_receita_yoy_pct": 11.5,
-        "crescimento_lucro_yoy_pct": null,
-        "crescimento_eps_qoq_pct": null
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 7.25,
-        "divida_liquida_bi": 2.588,
-        "div_liq_sobre_pl": 0.21,
-        "div_liq_sobre_ebitda": 0.89,
-        "div_liq_sobre_ebit": 16.5,
-        "caixa_total_bi": 4.662,
-        "caixa_por_acao": 15.426,
-        "current_ratio": 1.857,
-        "quick_ratio": 1.803,
-        "book_value_por_acao": 40.047,
-        "ebitda_bi": 2.915,
-        "ebit_bi": 0.157,
-        "free_cash_flow_bi": -0.373,
-        "operating_cash_flow_bi": 6.942
-      },
-      "mercado": {
-        "market_cap_bi": 13.622,
-        "enterprise_value_bi": 16.21,
-        "acoes_em_circulacao_bi": 0.302,
-        "float_acoes_bi": 0.242,
-        "beta": 0.129,
-        "52w_max": 48.72,
-        "52w_min": 31.13,
-        "media_50d": 34.655,
-        "media_200d": 39.57825,
-        "volume_medio_30d": 1522503,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 21.91
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 7205.73,
-            "lucro_bruto_mi": 4054.94,
-            "ebitda_mi": 3527.21,
-            "lucro_liquido_mi": 2079.57,
-            "lucro_operacional_mi": 156.82,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 6848.22,
-            "lucro_bruto_mi": 3957.83,
-            "ebitda_mi": 3151.45,
-            "lucro_liquido_mi": 1545.35,
-            "lucro_operacional_mi": 2393.56,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 6292.74,
-            "lucro_bruto_mi": 3777.84,
-            "ebitda_mi": 2936.7,
-            "lucro_liquido_mi": 1503.36,
-            "lucro_operacional_mi": 2381.49,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 5673.65,
-            "lucro_bruto_mi": 3290.29,
-            "ebitda_mi": 2375.15,
-            "lucro_liquido_mi": 1151.54,
-            "lucro_operacional_mi": 1810.09,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 1901.16,
-            "lucro_bruto_mi": 1071.49,
-            "ebitda_mi": 41.18,
-            "lucro_liquido_mi": -505.16,
-            "lucro_operacional_mi": 329.57,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 1946.35,
-            "lucro_bruto_mi": 1156.89,
-            "ebitda_mi": 924.44,
-            "lucro_liquido_mi": 352.68,
-            "lucro_operacional_mi": 690.29,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 1890.95,
-            "lucro_bruto_mi": 1091.16,
-            "ebitda_mi": 829.08,
-            "lucro_liquido_mi": 361.33,
-            "lucro_operacional_mi": -1594.01,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 1804.17,
-            "lucro_bruto_mi": 1018.02,
-            "ebitda_mi": 773.65,
-            "lucro_liquido_mi": 246.4,
-            "lucro_operacional_mi": 413.07,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 1705.37,
-            "lucro_bruto_mi": 982.02,
-            "ebitda_mi": 492.24,
-            "lucro_liquido_mi": 263.85,
-            "lucro_operacional_mi": 385.94,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "CMIG4.SA": {
-      "identificacao": {
-        "ticker": "CMIG4.SA",
-        "nome": "Companhia Energética de Minas Gerais - CEMIG",
-        "setor": "Utilities",
-        "industria": "Utilities - Regulated Electric",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://www.cemig.com.br",
-        "resumo_negocio": "Companhia Energética de Minas Gerais - CEMIG, through its subsidiaries, engages in the generation, transmission, distribution, and sale of energy in Brazil. As of December 31, 2025, the company operated 32 hydro plants with a total capacity of 4,434 M, 2 wind farms with a total capacity of 71 MW, and 12 photovoltaic power stations with a total capacity of 169 MW; 365,577 miles of distribution lines; and 4,865 miles of transmission lines. It is also involved in the acquisition, transportation, and distribution of gas and its sub products and derivatives; sale and trading of energy; construction, implementation, operation and maintenance of electricity transmission; marketing and intermediation of energy-related business; installation, operation, maintenance and rental of solar plants; and distributed generation, account services, cogeneration, energy efficiency, and supply and storage management activities. The company was incorporated in 1952 and is headquartered in Belo Horizonte, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:18",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 12.13,
-        "pe_ratio_trailing": 7.487654,
-        "pe_ratio_forward": 10.405051,
-        "pb_ratio": 1.1890991,
-        "ps_ratio": 0.7933342,
-        "ev_ebitda": 6.891,
-        "ev_receita": 1.243,
-        "eps_ttm": 1.62,
-        "eps_forward": 1.16578,
-        "dividend_yield_ttm_pct": 9.4,
-        "dividendo_por_acao": 1.14,
-        "payout_ratio_pct": 79.06,
-        "peg_ratio": null
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 11.14,
-        "operating_margin_pct": 15.58,
-        "profit_margin_pct": 10.51,
-        "roe_pct": 15.94,
-        "roa_pct": 5.94,
-        "roic_pct": 13.99,
-        "crescimento_receita_yoy_pct": 3.4,
-        "crescimento_lucro_yoy_pct": -20.4,
-        "crescimento_eps_qoq_pct": -20.4
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 22.75,
-        "divida_liquida_bi": 19.668,
-        "div_liq_sobre_pl": 1.01,
-        "div_liq_sobre_ebitda": 2.49,
-        "div_liq_sobre_ebit": 3.11,
-        "caixa_total_bi": 3.082,
-        "caixa_por_acao": 1.077,
-        "current_ratio": 1.168,
-        "quick_ratio": 0.896,
-        "book_value_por_acao": 10.201,
-        "ebitda_bi": 7.89,
-        "ebit_bi": 6.328,
-        "free_cash_flow_bi": -3.181,
-        "operating_cash_flow_bi": 3.405
-      },
-      "mercado": {
-        "market_cap_bi": 34.7,
-        "enterprise_value_bi": 54.372,
-        "acoes_em_circulacao_bi": 1.904,
-        "float_acoes_bi": 2.373,
-        "beta": 0.055,
-        "52w_max": 13.87,
-        "52w_min": 9.87,
-        "media_50d": 10.9954,
-        "media_200d": 11.4883,
-        "volume_medio_30d": 15348300,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 51.54
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 42751.0,
-            "lucro_bruto_mi": 7237.0,
-            "ebitda_mi": 8706.0,
-            "lucro_liquido_mi": 4897.0,
-            "lucro_operacional_mi": 6328.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 39820.0,
-            "lucro_bruto_mi": 7830.0,
-            "ebitda_mi": 11723.0,
-            "lucro_liquido_mi": 7117.0,
-            "lucro_operacional_mi": 7943.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 36850.0,
-            "lucro_bruto_mi": 8384.0,
-            "ebitda_mi": 9138.0,
-            "lucro_liquido_mi": 5764.0,
-            "lucro_operacional_mi": 6213.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 31805.0,
-            "lucro_bruto_mi": 4154.0,
-            "ebitda_mi": 6230.0,
-            "lucro_liquido_mi": 4092.0,
-            "lucro_operacional_mi": 3516.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 11008.26,
-            "lucro_bruto_mi": 1804.26,
-            "ebitda_mi": 2119.0,
-            "lucro_liquido_mi": 945.0,
-            "lucro_operacional_mi": 1899.24,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 10341.91,
-            "lucro_bruto_mi": 1591.91,
-            "ebitda_mi": 1645.0,
-            "lucro_liquido_mi": 979.0,
-            "lucro_operacional_mi": 1309.54,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 11592.79,
-            "lucro_bruto_mi": 1737.63,
-            "ebitda_mi": 2655.99,
-            "lucro_liquido_mi": 1874.38,
-            "lucro_operacional_mi": 2387.94,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 10527.68,
-            "lucro_bruto_mi": 1508.57,
-            "ebitda_mi": 2379.53,
-            "lucro_liquido_mi": 796.74,
-            "lucro_operacional_mi": 1023.88,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 10667.44,
-            "lucro_bruto_mi": 2081.44,
-            "ebitda_mi": 2361.24,
-            "lucro_liquido_mi": 1188.0,
-            "lucro_operacional_mi": 2019.3,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "TAEE11.SA": {
-      "identificacao": {
-        "ticker": "TAEE11.SA",
-        "nome": "Transmissora Aliança de Energia Elétrica S.A.",
-        "setor": "Utilities",
-        "industria": "Utilities - Regulated Electric",
-        "pais": "Brazil",
-        "moeda": "BRL",
-        "bolsa": "SAO",
-        "site": "https://institucional.taesa.com.br/",
-        "resumo_negocio": "Transmissora Aliança de Energia Elétrica S.A., together with its subsidiaries, engages in the construction, operation, and maintenance of electric power transmission lines in Brazil. It operates approximately a total length of 15,319 kilometers (km) of transmission lines, which include 14,677 km of transmission lines in operation and 642 km of lines under construction; 113 substations with voltage between 230 and 525KV; and one system operation center located in Rio de Janeiro. The company was founded in 2000 is headquartered in Rio De Janeiro, Brazil."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:18",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 46.45,
-        "pe_ratio_trailing": 42.614677,
-        "pe_ratio_forward": 11.095585,
-        "pb_ratio": 1.9826704,
-        "ps_ratio": 10.70514,
-        "ev_ebitda": 10.806,
-        "ev_receita": 5.978,
-        "eps_ttm": 1.09,
-        "eps_forward": 4.18635,
-        "dividend_yield_ttm_pct": 6.48,
-        "dividendo_por_acao": 3.01,
-        "payout_ratio_pct": null,
-        "peg_ratio": 6.02
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 61.16,
-        "operating_margin_pct": 75.34,
-        "profit_margin_pct": 36.48,
-        "roe_pct": 20.86,
-        "roa_pct": 6.9,
-        "roic_pct": 11.23,
-        "crescimento_receita_yoy_pct": -15.4,
-        "crescimento_lucro_yoy_pct": 13.5,
-        "crescimento_eps_qoq_pct": 13.5
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 11.015,
-        "divida_liquida_bi": 10.807,
-        "div_liq_sobre_pl": 1.34,
-        "div_liq_sobre_ebitda": 4.36,
-        "div_liq_sobre_ebit": 4.74,
-        "caixa_total_bi": 0.208,
-        "caixa_por_acao": 0.605,
-        "current_ratio": 3.479,
-        "quick_ratio": 2.976,
-        "book_value_por_acao": 23.428,
-        "ebitda_bi": 2.481,
-        "ebit_bi": 2.279,
-        "free_cash_flow_bi": 0.415,
-        "operating_cash_flow_bi": 1.702
-      },
-      "mercado": {
-        "market_cap_bi": 48.006,
-        "enterprise_value_bi": 26.809,
-        "acoes_em_circulacao_bi": 0.344,
-        "float_acoes_bi": 0.344,
-        "beta": -0.029,
-        "52w_max": 46.91,
-        "52w_min": 35.7,
-        "media_50d": 40.3942,
-        "media_200d": 41.23185,
-        "volume_medio_30d": 2148140,
-        "short_ratio": null,
-        "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 18.12
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 4624.11,
-            "lucro_bruto_mi": 2546.29,
-            "ebitda_mi": 2677.69,
-            "lucro_liquido_mi": 1579.86,
-            "lucro_operacional_mi": 2279.09,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 3718.14,
-            "lucro_bruto_mi": 2472.31,
-            "ebitda_mi": 2665.4,
-            "lucro_liquido_mi": 1693.91,
-            "lucro_operacional_mi": 2199.23,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 3360.9,
-            "lucro_bruto_mi": 2120.18,
-            "ebitda_mi": 2228.76,
-            "lucro_liquido_mi": 1367.72,
-            "lucro_operacional_mi": 1906.35,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 2616.52,
-            "lucro_bruto_mi": 2118.07,
-            "ebitda_mi": 2352.21,
-            "lucro_liquido_mi": 1449.21,
-            "lucro_operacional_mi": 1876.4,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 1067.65,
-            "lucro_bruto_mi": 878.97,
-            "ebitda_mi": 890.77,
-            "lucro_liquido_mi": 567.14,
-            "lucro_operacional_mi": 804.4,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 1037.35,
-            "lucro_bruto_mi": 674.7,
-            "ebitda_mi": 666.7,
-            "lucro_liquido_mi": 353.65,
-            "lucro_operacional_mi": 606.25,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 1198.84,
-            "lucro_bruto_mi": 631.91,
-            "ebitda_mi": 685.5,
-            "lucro_liquido_mi": 364.08,
-            "lucro_operacional_mi": 554.7,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 1180.56,
-            "lucro_bruto_mi": 539.18,
-            "ebitda_mi": 577.6,
-            "lucro_liquido_mi": 340.61,
-            "lucro_operacional_mi": 473.31,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 1261.83,
-            "lucro_bruto_mi": 716.53,
-            "ebitda_mi": 759.21,
-            "lucro_liquido_mi": 499.77,
-            "lucro_operacional_mi": 653.82,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "AMZN": {
-      "identificacao": {
-        "ticker": "AMZN",
-        "nome": "Amazon.com, Inc.",
-        "setor": "Consumer Cyclical",
-        "industria": "Internet Retail",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NMS",
-        "site": "https://www.amazon.com",
-        "resumo_negocio": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:19",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 259.53,
-        "pe_ratio_trailing": 20.879324,
-        "pe_ratio_forward": 24.767809,
-        "pb_ratio": 5.073305,
-        "ps_ratio": 3.608926,
-        "ev_ebitda": 17.52,
-        "ev_receita": 3.815,
-        "eps_ttm": 12.43,
-        "eps_forward": 10.47852,
-        "dividend_yield_ttm_pct": 0.0,
-        "dividendo_por_acao": null,
-        "payout_ratio_pct": 0.0,
-        "peg_ratio": 1.53
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 50.77,
-        "operating_margin_pct": 13.69,
-        "profit_margin_pct": 17.44,
-        "roe_pct": 30.56,
-        "roa_pct": 6.59,
-        "roic_pct": 8.82,
-        "crescimento_receita_yoy_pct": 19.6,
-        "crescimento_lucro_yoy_pct": 242.3,
-        "crescimento_eps_qoq_pct": 244.9
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 251.635,
-        "divida_liquida_bi": 128.647,
-        "div_liq_sobre_pl": 0.23,
-        "div_liq_sobre_ebitda": 0.76,
-        "div_liq_sobre_ebit": 1.61,
-        "caixa_total_bi": 122.988,
-        "caixa_por_acao": 11.402,
-        "current_ratio": 1.033,
-        "quick_ratio": 0.843,
-        "book_value_por_acao": 51.156,
-        "ebitda_bi": 168.912,
-        "ebit_bi": 79.975,
-        "free_cash_flow_bi": 3.219,
-        "operating_cash_flow_bi": 161.403
-      },
-      "mercado": {
-        "market_cap_bi": 2799.372,
-        "enterprise_value_bi": 2959.299,
-        "acoes_em_circulacao_bi": 10.786,
-        "float_acoes_bi": 9.811,
-        "beta": 1.456,
-        "52w_max": 287.2,
-        "52w_min": 196.0,
-        "media_50d": 259.0956,
-        "media_200d": 242.15155,
-        "volume_medio_30d": 39235829,
-        "short_ratio": 2.49,
-        "insider_ownership_pct": 8.85,
-        "institutional_ownership_pct": 68.73
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 716924.0,
-            "lucro_bruto_mi": 360510.0,
-            "ebitda_mi": 165341.0,
-            "lucro_liquido_mi": 77670.0,
-            "lucro_operacional_mi": 79975.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 637959.0,
-            "lucro_bruto_mi": 311671.0,
-            "ebitda_mi": 123815.0,
-            "lucro_liquido_mi": 59248.0,
-            "lucro_operacional_mi": 68593.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 574785.0,
-            "lucro_bruto_mi": 270046.0,
-            "ebitda_mi": 89402.0,
-            "lucro_liquido_mi": 30425.0,
-            "lucro_operacional_mi": 36852.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 513983.0,
-            "lucro_bruto_mi": 225152.0,
-            "ebitda_mi": 38352.0,
-            "lucro_liquido_mi": -2722.0,
-            "lucro_operacional_mi": 12248.0,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 181519.0,
-            "lucro_bruto_mi": 94056.0,
-            "ebitda_mi": 59579.0,
-            "lucro_liquido_mi": 30255.0,
-            "lucro_operacional_mi": 23852.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 213386.0,
-            "lucro_bruto_mi": 103427.0,
-            "ebitda_mi": 46755.0,
-            "lucro_liquido_mi": 21192.0,
-            "lucro_operacional_mi": 24977.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 180169.0,
-            "lucro_bruto_mi": 91499.0,
-            "ebitda_mi": 45504.0,
-            "lucro_liquido_mi": 21187.0,
-            "lucro_operacional_mi": 17422.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 167702.0,
-            "lucro_bruto_mi": 86893.0,
-            "ebitda_mi": 36600.0,
-            "lucro_liquido_mi": 18164.0,
-            "lucro_operacional_mi": 19171.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": 155667.0,
-            "lucro_bruto_mi": 78691.0,
-            "ebitda_mi": 36482.0,
-            "lucro_liquido_mi": 17127.0,
-            "lucro_operacional_mi": 18405.0,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "MCD": {
-      "identificacao": {
-        "ticker": "MCD",
-        "nome": "McDonald's Corporation",
-        "setor": "Consumer Cyclical",
-        "industria": "Restaurants",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NYQ",
-        "site": "https://www.mcdonalds.com",
-        "resumo_negocio": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally. It offers food and beverages, including hamburgers and cheeseburgers, various chicken sandwiches, fries, shakes, frozen desserts, sundaes, soft serve cones, cookies, pies, soft drinks, coffee, and other beverages; and full or limited breakfast, as well as sells various other products during limited-time promotions. The company owns and operates franchised restaurants under various structures, including conventional franchise, developmental license, or affiliate. McDonald's Corporation was founded in 1940 and is based in Chicago, Illinois."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:19",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 235.72,
-        "pe_ratio_trailing": 19.148659,
-        "pe_ratio_forward": 17.123522,
-        "pb_ratio": -163.01521,
-        "ps_ratio": 6.0214157,
-        "ev_ebitda": 14.752,
-        "ev_receita": 7.95,
-        "eps_ttm": 12.31,
-        "eps_forward": 13.76586,
-        "dividend_yield_ttm_pct": 3.28,
-        "dividendo_por_acao": 7.72,
-        "payout_ratio_pct": 59.71,
-        "peg_ratio": 2.48
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 57.38,
-        "operating_margin_pct": 46.48,
-        "profit_margin_pct": 31.72,
-        "roe_pct": null,
-        "roa_pct": 13.25,
-        "roic_pct": 18.46,
-        "crescimento_receita_yoy_pct": 3.7,
-        "crescimento_lucro_yoy_pct": 5.7,
-        "crescimento_eps_qoq_pct": 4.8
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 54.604,
-        "divida_liquida_bi": 53.782,
-        "div_liq_sobre_pl": -52.56,
-        "div_liq_sobre_ebitda": 3.6,
-        "div_liq_sobre_ebit": 4.34,
-        "caixa_total_bi": 0.822,
-        "caixa_por_acao": 1.162,
-        "current_ratio": 1.081,
-        "quick_ratio": 0.823,
-        "book_value_por_acao": -1.446,
-        "ebitda_bi": 14.93,
-        "ebit_bi": 12.394,
-        "free_cash_flow_bi": 6.262,
-        "operating_cash_flow_bi": 11.347
-      },
-      "mercado": {
-        "market_cap_bi": 166.805,
-        "enterprise_value_bi": 220.241,
-        "acoes_em_circulacao_bi": 0.708,
-        "float_acoes_bi": 0.707,
-        "beta": 0.447,
-        "52w_max": 341.75,
-        "52w_min": 229.2,
-        "media_50d": 255.6486,
-        "media_200d": 287.73166,
-        "volume_medio_30d": 5154812,
-        "short_ratio": 2.36,
-        "insider_ownership_pct": 0.26,
-        "institutional_ownership_pct": 76.39
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 26885.0,
-            "lucro_bruto_mi": 15434.0,
-            "ebitda_mi": 14678.0,
-            "lucro_liquido_mi": 8563.0,
-            "lucro_operacional_mi": 12394.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 25920.0,
-            "lucro_bruto_mi": 14710.0,
-            "ebitda_mi": 13948.0,
-            "lucro_liquido_mi": 8223.0,
-            "lucro_operacional_mi": 11851.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 25495.0,
-            "lucro_bruto_mi": 14564.0,
-            "ebitda_mi": 13861.0,
-            "lucro_liquido_mi": 8469.0,
-            "lucro_operacional_mi": 11747.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 23182.0,
-            "lucro_bruto_mi": 13207.0,
-            "ebitda_mi": 10903.0,
-            "lucro_liquido_mi": 6177.0,
-            "lucro_operacional_mi": 10345.0,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 7100.0,
-            "lucro_bruto_mi": 4119.0,
-            "ebitda_mi": 3910.0,
-            "lucro_liquido_mi": 2362.0,
-            "lucro_operacional_mi": 3302.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 6517.0,
-            "lucro_bruto_mi": 3643.0,
-            "ebitda_mi": 3508.0,
-            "lucro_liquido_mi": 1983.0,
-            "lucro_operacional_mi": 2884.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 7008.0,
-            "lucro_bruto_mi": 4030.0,
-            "ebitda_mi": 3743.0,
-            "lucro_liquido_mi": 2164.0,
-            "lucro_operacional_mi": 3157.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 7077.0,
-            "lucro_bruto_mi": 4104.0,
-            "ebitda_mi": 3914.0,
-            "lucro_liquido_mi": 2278.0,
-            "lucro_operacional_mi": 3319.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 6843.0,
-            "lucro_bruto_mi": 3962.0,
-            "ebitda_mi": 3795.0,
-            "lucro_liquido_mi": 2253.0,
-            "lucro_operacional_mi": 3261.0,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "KO": {
-      "identificacao": {
-        "ticker": "KO",
-        "nome": "The Coca-Cola Company",
-        "setor": "Consumer Defensive",
-        "industria": "Beverages - Non-Alcoholic",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NYQ",
-        "site": "https://www.coca-colacompany.com",
-        "resumo_negocio": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glacéau smartwater, glacéau vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:20",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 89.785,
-        "pe_ratio_trailing": 26.962463,
-        "pe_ratio_forward": 25.472729,
-        "pb_ratio": 10.687419,
-        "ps_ratio": 7.706206,
-        "ev_ebitda": 24.055,
-        "ev_receita": 8.157,
-        "eps_ttm": 3.33,
-        "eps_forward": 3.52475,
-        "dividend_yield_ttm_pct": 2.36,
-        "dividendo_por_acao": 2.12,
-        "payout_ratio_pct": 62.46,
-        "peg_ratio": 4.0
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 61.89,
-        "operating_margin_pct": 34.87,
-        "profit_margin_pct": 28.56,
-        "roe_pct": 42.05,
-        "roa_pct": 9.4,
-        "roic_pct": 19.12,
-        "crescimento_receita_yoy_pct": 6.7,
-        "crescimento_lucro_yoy_pct": 16.9,
-        "crescimento_eps_qoq_pct": 16.1
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 44.261,
-        "divida_liquida_bi": 27.89,
-        "div_liq_sobre_pl": 0.77,
-        "div_liq_sobre_ebitda": 1.64,
-        "div_liq_sobre_ebit": 1.87,
-        "caixa_total_bi": 16.371,
-        "caixa_por_acao": 3.805,
-        "current_ratio": 1.305,
-        "quick_ratio": 0.798,
-        "book_value_por_acao": 8.401,
-        "ebitda_bi": 16.998,
-        "ebit_bi": 14.911,
-        "free_cash_flow_bi": 5.219,
-        "operating_cash_flow_bi": 16.342
-      },
-      "mercado": {
-        "market_cap_bi": 386.304,
-        "enterprise_value_bi": 408.894,
-        "acoes_em_circulacao_bi": 4.303,
-        "float_acoes_bi": 3.874,
-        "beta": 0.318,
-        "52w_max": 92.49,
-        "52w_min": 66.0,
-        "media_50d": 87.9814,
-        "media_200d": 80.425,
-        "volume_medio_30d": 15850587,
-        "short_ratio": 3.36,
-        "insider_ownership_pct": 9.9,
-        "institutional_ownership_pct": 68.16
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 47941.0,
-            "lucro_bruto_mi": 29544.0,
-            "ebitda_mi": 18702.0,
-            "lucro_liquido_mi": 13107.0,
-            "lucro_operacional_mi": 14911.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 47061.0,
-            "lucro_bruto_mi": 28737.0,
-            "ebitda_mi": 15817.0,
-            "lucro_liquido_mi": 10631.0,
-            "lucro_operacional_mi": 14022.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 45754.0,
-            "lucro_bruto_mi": 27234.0,
-            "ebitda_mi": 15607.0,
-            "lucro_liquido_mi": 10714.0,
-            "lucro_operacional_mi": 13098.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 43004.0,
-            "lucro_bruto_mi": 25004.0,
-            "ebitda_mi": 13828.0,
-            "lucro_liquido_mi": 9542.0,
-            "lucro_operacional_mi": 12042.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 13380.0,
-            "lucro_bruto_mi": 8415.0,
-            "ebitda_mi": 6110.0,
-            "lucro_liquido_mi": 4425.0,
-            "lucro_operacional_mi": 4695.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 12472.0,
-            "lucro_bruto_mi": 7852.0,
-            "ebitda_mi": 5250.0,
-            "lucro_liquido_mi": 3924.0,
-            "lucro_operacional_mi": 4372.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 11822.0,
-            "lucro_bruto_mi": 7099.0,
-            "ebitda_mi": 3629.0,
-            "lucro_liquido_mi": 2271.0,
-            "lucro_operacional_mi": 2862.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 12455.0,
-            "lucro_bruto_mi": 7658.0,
-            "ebitda_mi": 4842.0,
-            "lucro_liquido_mi": 3696.0,
-            "lucro_operacional_mi": 4012.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 12535.0,
-            "lucro_bruto_mi": 7821.0,
-            "ebitda_mi": 5520.0,
-            "lucro_liquido_mi": 3810.0,
-            "lucro_operacional_mi": 4351.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "BRK-B": {
-      "identificacao": {
-        "ticker": "BRK-B",
-        "nome": "Berkshire Hathaway Inc.",
-        "setor": "Financial Services",
-        "industria": "Insurance - Diversified",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NYQ",
-        "site": "https://www.berkshirehathaway.com",
-        "resumo_negocio": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:21",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 517.73,
-        "pe_ratio_trailing": 13.0213785,
-        "pe_ratio_forward": 23.900488,
-        "pb_ratio": 0.0009913908,
-        "ps_ratio": 2.8810682,
-        "ev_ebitda": -1.79,
-        "ev_receita": -0.608,
-        "eps_ttm": 39.76,
-        "eps_forward": 21.6619,
-        "dividend_yield_ttm_pct": 0.0,
-        "dividendo_por_acao": null,
-        "payout_ratio_pct": 0.0,
-        "peg_ratio": 10.06
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 30.33,
-        "operating_margin_pct": 32.56,
-        "profit_margin_pct": 22.3,
-        "roe_pct": 12.12,
-        "roa_pct": 6.01,
-        "roic_pct": null,
-        "crescimento_receita_yoy_pct": 10.0,
-        "crescimento_lucro_yoy_pct": 107.8,
-        "crescimento_eps_qoq_pct": 107.5
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 128.599,
-        "divida_liquida_bi": -236.915,
-        "div_liq_sobre_pl": -0.0,
-        "div_liq_sobre_ebitda": -1.81,
-        "div_liq_sobre_ebit": null,
-        "caixa_total_bi": 365.514,
-        "caixa_por_acao": 256115.53,
-        "current_ratio": 2.891,
-        "quick_ratio": 2.693,
-        "book_value_por_acao": 522225.9,
-        "ebitda_bi": 130.683,
-        "ebit_bi": null,
-        "free_cash_flow_bi": 71.975,
-        "operating_cash_flow_bi": 46.634
-      },
-      "mercado": {
-        "market_cap_bi": 1108.31,
-        "enterprise_value_bi": -233.912,
-        "acoes_em_circulacao_bi": 1.408,
-        "float_acoes_bi": 0.001,
-        "beta": 0.595,
-        "52w_max": 537.74,
-        "52w_min": 464.01,
-        "media_50d": 507.7682,
-        "media_200d": 492.96985,
-        "volume_medio_30d": 4340887,
-        "short_ratio": 2.67,
-        "insider_ownership_pct": 0.27,
-        "institutional_ownership_pct": 66.88
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 410522.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 66968.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 424232.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 88995.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 439337.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 96223.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 234121.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": -22759.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 117885.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 25667.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 92070.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 10106.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 111442.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 19199.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 98879.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 12370.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": 83290.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 4603.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "BAC": {
-      "identificacao": {
-        "ticker": "BAC",
-        "nome": "Bank of America Corporation",
-        "setor": "Financial Services",
-        "industria": "Banks - Diversified",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NYQ",
-        "site": "https://www.bankofamerica.com",
-        "resumo_negocio": "Bank of America Corporation, through its subsidiaries, provides various financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. It operates through four segments: Consumer Banking, Global Wealth & Investment Management (GWIM), Global Banking, and Global Markets. The Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, checking accounts, and investment accounts and products; credit and debit cards; residential mortgages and home equity loans; and direct and indirect loans. The GWIM segment provides investment management, brokerage, banking, and trust and retirement products and services; wealth management solutions; and customized solutions, including specialty asset management services. The Global Banking segment offers lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, and underwriting and advisory services. The Global Markets segment provides market-making, financing, securities clearing, settlement, and custody services; securities and derivative products; and risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. Bank of America Corporation was founded in 1784 and is based in Charlotte, North Carolina."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:21",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 54.565,
-        "pe_ratio_trailing": 12.601617,
-        "pe_ratio_forward": 10.419172,
-        "pb_ratio": 1.3869401,
-        "ps_ratio": 3.3490384,
-        "ev_ebitda": null,
-        "ev_receita": 2.859,
-        "eps_ttm": 4.33,
-        "eps_forward": 5.23698,
-        "dividend_yield_ttm_pct": 2.35,
-        "dividendo_por_acao": 1.28,
-        "payout_ratio_pct": 25.87,
-        "peg_ratio": 0.86
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 0.0,
-        "operating_margin_pct": 38.3,
-        "profit_margin_pct": 29.52,
-        "roe_pct": 11.2,
-        "roa_pct": 0.97,
-        "roic_pct": null,
-        "crescimento_receita_yoy_pct": 16.8,
-        "crescimento_lucro_yoy_pct": 34.1,
-        "crescimento_eps_qoq_pct": 26.6
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 788.985,
-        "divida_liquida_bi": -79.157,
-        "div_liq_sobre_pl": -0.29,
-        "div_liq_sobre_ebitda": null,
-        "div_liq_sobre_ebit": null,
-        "caixa_total_bi": 868.142,
-        "caixa_por_acao": 124.149,
-        "current_ratio": null,
-        "quick_ratio": null,
-        "book_value_por_acao": 39.342,
-        "ebitda_bi": null,
-        "ebit_bi": null,
-        "free_cash_flow_bi": null,
-        "operating_cash_flow_bi": 94.742
-      },
-      "mercado": {
-        "market_cap_bi": 381.559,
-        "enterprise_value_bi": 325.685,
-        "acoes_em_circulacao_bi": 6.993,
-        "float_acoes_bi": 6.965,
-        "beta": 1.214,
-        "52w_max": 65.23,
-        "52w_min": 46.12,
-        "media_50d": 60.069,
-        "media_200d": 55.2763,
-        "volume_medio_30d": 33964868,
-        "short_ratio": 2.32,
-        "insider_ownership_pct": 7.03,
-        "institutional_ownership_pct": 71.19
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 113097.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 30509.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 105856.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 26973.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 102769.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 26305.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 94950.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 27528.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 30272.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 8584.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 31180.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 7528.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 28088.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 8469.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 27443.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 7170.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": 28247.0,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": 7360.0,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "AAPL": {
-      "identificacao": {
-        "ticker": "AAPL",
-        "nome": "Apple Inc.",
-        "setor": "Technology",
-        "industria": "Consumer Electronics",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NMS",
-        "site": "https://www.apple.com",
-        "resumo_negocio": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:22",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 340.97,
-        "pe_ratio_trailing": 39.102062,
-        "pe_ratio_forward": 35.563347,
-        "pb_ratio": 46.327446,
-        "ps_ratio": 10.659668,
-        "ev_ebitda": 29.382,
-        "ev_receita": 10.571,
-        "eps_ttm": 8.72,
-        "eps_forward": 9.58768,
-        "dividend_yield_ttm_pct": 0.32,
-        "dividendo_por_acao": 1.08,
-        "payout_ratio_pct": 12.04,
-        "peg_ratio": 2.69
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 48.65,
-        "operating_margin_pct": 32.62,
-        "profit_margin_pct": 27.62,
-        "roe_pct": 148.75,
-        "roa_pct": 27.08,
-        "roic_pct": 86.8,
-        "crescimento_receita_yoy_pct": 16.4,
-        "crescimento_lucro_yoy_pct": 28.7,
-        "crescimento_eps_qoq_pct": 27.1
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 84.344,
-        "divida_liquida_bi": 21.945,
-        "div_liq_sobre_pl": 0.2,
-        "div_liq_sobre_ebitda": 0.13,
-        "div_liq_sobre_ebit": 0.16,
-        "caixa_total_bi": 62.399,
-        "caixa_por_acao": 4.276,
-        "current_ratio": 1.003,
-        "quick_ratio": 0.812,
-        "book_value_por_acao": 7.36,
-        "ebitda_bi": 167.959,
-        "ebit_bi": 133.05,
-        "free_cash_flow_bi": 107.722,
-        "operating_cash_flow_bi": 146.724
-      },
-      "mercado": {
-        "market_cap_bi": 4976.178,
-        "enterprise_value_bi": 4934.93,
-        "acoes_em_circulacao_bi": 14.594,
-        "float_acoes_bi": 14.569,
-        "beta": 1.069,
-        "52w_max": 345.34,
-        "52w_min": 243.42,
-        "media_50d": 322.3886,
-        "media_200d": 290.74344,
-        "volume_medio_30d": 45268204,
-        "short_ratio": 2.82,
-        "insider_ownership_pct": 1.65,
-        "institutional_ownership_pct": 66.32
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 416161.0,
-            "lucro_bruto_mi": 195201.0,
-            "ebitda_mi": 144748.0,
-            "lucro_liquido_mi": 112010.0,
-            "lucro_operacional_mi": 133050.0,
-            "pesquisa_desenv_mi": 34550.0
-          },
-          {
-            "periodo": "2024-09-30",
-            "receita_total_mi": 391035.0,
-            "lucro_bruto_mi": 180683.0,
-            "ebitda_mi": 134661.0,
-            "lucro_liquido_mi": 93736.0,
-            "lucro_operacional_mi": 123216.0,
-            "pesquisa_desenv_mi": 31370.0
-          },
-          {
-            "periodo": "2023-09-30",
-            "receita_total_mi": 383285.0,
-            "lucro_bruto_mi": 169148.0,
-            "ebitda_mi": 125820.0,
-            "lucro_liquido_mi": 96995.0,
-            "lucro_operacional_mi": 114301.0,
-            "pesquisa_desenv_mi": 29915.0
-          },
-          {
-            "periodo": "2022-09-30",
-            "receita_total_mi": 394328.0,
-            "lucro_bruto_mi": 170782.0,
-            "ebitda_mi": 130541.0,
-            "lucro_liquido_mi": 99803.0,
-            "lucro_operacional_mi": 119437.0,
-            "pesquisa_desenv_mi": 26251.0
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 109417.0,
-            "lucro_bruto_mi": 54770.0,
-            "ebitda_mi": 39015.0,
-            "lucro_liquido_mi": 29789.0,
-            "lucro_operacional_mi": 35695.0,
-            "pesquisa_desenv_mi": 11729.0
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 111184.0,
-            "lucro_bruto_mi": 54781.0,
-            "ebitda_mi": 39324.0,
-            "lucro_liquido_mi": 29578.0,
-            "lucro_operacional_mi": 35885.0,
-            "pesquisa_desenv_mi": 11419.0
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 143756.0,
-            "lucro_bruto_mi": 69231.0,
-            "ebitda_mi": 54066.0,
-            "lucro_liquido_mi": 42097.0,
-            "lucro_operacional_mi": 50852.0,
-            "pesquisa_desenv_mi": 10887.0
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 102466.0,
-            "lucro_bruto_mi": 48341.0,
-            "ebitda_mi": 35554.0,
-            "lucro_liquido_mi": 27466.0,
-            "lucro_operacional_mi": 32427.0,
-            "pesquisa_desenv_mi": 8866.0
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 94036.0,
-            "lucro_bruto_mi": 43718.0,
-            "ebitda_mi": 31032.0,
-            "lucro_liquido_mi": 23434.0,
-            "lucro_operacional_mi": 28202.0,
-            "pesquisa_desenv_mi": 8866.0
-          }
-        ]
-      }
-    },
-    "MSFT": {
-      "identificacao": {
-        "ticker": "MSFT",
-        "nome": "Microsoft Corporation",
-        "setor": "Technology",
-        "industria": "Software - Infrastructure",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NMS",
-        "site": "https://www.microsoft.com",
-        "resumo_negocio": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games; and devices, such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. Its Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The company's More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:23",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 541.15,
-        "pe_ratio_trailing": 30.147633,
-        "pe_ratio_forward": 22.855206,
-        "pb_ratio": 9.085033,
-        "ps_ratio": 12.109288,
-        "ev_ebitda": 20.723,
-        "ev_receita": 12.13,
-        "eps_ttm": 17.95,
-        "eps_forward": 23.67732,
-        "dividend_yield_ttm_pct": 0.72,
-        "dividendo_por_acao": 3.92,
-        "payout_ratio_pct": 19.83,
-        "peg_ratio": 1.74
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 67.94,
-        "operating_margin_pct": 45.11,
-        "profit_margin_pct": 40.3,
-        "roe_pct": 34.04,
-        "roa_pct": 14.09,
-        "roic_pct": 25.32,
-        "crescimento_receita_yoy_pct": 17.7,
-        "crescimento_lucro_yoy_pct": 31.7,
-        "crescimento_eps_qoq_pct": 31.3
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 128.813,
-        "divida_liquida_bi": 51.97,
-        "div_liq_sobre_pl": 0.12,
-        "div_liq_sobre_ebitda": 0.27,
-        "div_liq_sobre_ebit": 0.33,
-        "caixa_total_bi": 76.843,
-        "caixa_por_acao": 10.348,
-        "current_ratio": 1.23,
-        "quick_ratio": 1.099,
-        "book_value_por_acao": 59.565,
-        "ebitda_bi": 194.237,
-        "ebit_bi": 155.237,
-        "free_cash_flow_bi": 16.546,
-        "operating_cash_flow_bi": 182.935
-      },
-      "mercado": {
-        "market_cap_bi": 4018.334,
-        "enterprise_value_bi": 4025.157,
-        "acoes_em_circulacao_bi": 7.426,
-        "float_acoes_bi": 7.414,
-        "beta": 1.099,
-        "52w_max": 553.72,
-        "52w_min": 349.2,
-        "media_50d": 500.4468,
-        "media_200d": 434.0039,
-        "volume_medio_30d": 27591040,
-        "short_ratio": 2.83,
-        "insider_ownership_pct": 0.08,
-        "institutional_ownership_pct": 75.8
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 331839.0,
-            "lucro_bruto_mi": 225465.0,
-            "ebitda_mi": 207519.0,
-            "lucro_liquido_mi": 133749.0,
-            "lucro_operacional_mi": 155237.0,
-            "pesquisa_desenv_mi": 35562.0
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 281724.0,
-            "lucro_bruto_mi": 193893.0,
-            "ebitda_mi": 155445.0,
-            "lucro_liquido_mi": 101832.0,
-            "lucro_operacional_mi": 128528.0,
-            "pesquisa_desenv_mi": 32488.0
-          },
-          {
-            "periodo": "2024-06-30",
-            "receita_total_mi": 245122.0,
-            "lucro_bruto_mi": 171008.0,
-            "ebitda_mi": 131680.0,
-            "lucro_liquido_mi": 88136.0,
-            "lucro_operacional_mi": 109433.0,
-            "pesquisa_desenv_mi": 29510.0
-          },
-          {
-            "periodo": "2023-06-30",
-            "receita_total_mi": 211915.0,
-            "lucro_bruto_mi": 146052.0,
-            "ebitda_mi": 105140.0,
-            "lucro_liquido_mi": 72361.0,
-            "lucro_operacional_mi": 88523.0,
-            "pesquisa_desenv_mi": 27195.0
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 90007.0,
-            "lucro_bruto_mi": 60482.0,
-            "ebitda_mi": 55908.0,
-            "lucro_liquido_mi": 35766.0,
-            "lucro_operacional_mi": 40603.0,
-            "pesquisa_desenv_mi": 9997.0
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 82886.0,
-            "lucro_bruto_mi": 56058.0,
-            "ebitda_mi": 50285.0,
-            "lucro_liquido_mi": 31778.0,
-            "lucro_operacional_mi": 38398.0,
-            "pesquisa_desenv_mi": 8915.0
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 81273.0,
-            "lucro_bruto_mi": 55295.0,
-            "ebitda_mi": 58180.0,
-            "lucro_liquido_mi": 38458.0,
-            "lucro_operacional_mi": 38275.0,
-            "pesquisa_desenv_mi": 8504.0
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 77673.0,
-            "lucro_bruto_mi": 53630.0,
-            "ebitda_mi": 48060.0,
-            "lucro_liquido_mi": 27747.0,
-            "lucro_operacional_mi": 37961.0,
-            "pesquisa_desenv_mi": 8146.0
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 76441.0,
-            "lucro_bruto_mi": 52427.0,
-            "ebitda_mi": 44434.0,
-            "lucro_liquido_mi": 27233.0,
-            "lucro_operacional_mi": 34323.0,
-            "pesquisa_desenv_mi": 8829.0
-          }
-        ]
-      }
-    },
-    "NVDA": {
-      "identificacao": {
-        "ticker": "NVDA",
-        "nome": "NVIDIA Corporation",
-        "setor": "Technology",
-        "industria": "Semiconductors",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NMS",
-        "site": "https://www.nvidia.com",
-        "resumo_negocio": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:23",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 226.32,
-        "pe_ratio_trailing": 28.611885,
-        "pe_ratio_forward": 14.220904,
-        "pb_ratio": 23.865866,
-        "ps_ratio": 18.03792,
-        "ev_ebitda": 27.337,
-        "ev_receita": 18.16,
-        "eps_ttm": 7.91,
-        "eps_forward": 15.9146,
-        "dividend_yield_ttm_pct": 0.44,
-        "dividendo_por_acao": 1.0,
-        "payout_ratio_pct": 3.54,
-        "peg_ratio": 0.28
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 74.67,
-        "operating_margin_pct": 66.24,
-        "profit_margin_pct": 63.66,
-        "roe_pct": 117.21,
-        "roa_pct": 53.57,
-        "roic_pct": 53.89,
-        "crescimento_receita_yoy_pct": 105.9,
-        "crescimento_lucro_yoy_pct": 127.8,
-        "crescimento_eps_qoq_pct": 125.9
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 38.86,
-        "divida_liquida_bi": -23.609,
-        "div_liq_sobre_pl": -0.1,
-        "div_liq_sobre_ebitda": -0.12,
-        "div_liq_sobre_ebit": -0.18,
-        "caixa_total_bi": 62.469,
-        "caixa_por_acao": 2.592,
-        "current_ratio": 4.589,
-        "quick_ratio": 2.918,
-        "book_value_por_acao": 9.483,
-        "ebitda_bi": 201.266,
-        "ebit_bi": 130.387,
-        "free_cash_flow_bi": 41.81,
-        "operating_cash_flow_bi": 134.36
-      },
-      "mercado": {
-        "market_cap_bi": 5464.949,
-        "enterprise_value_bi": 5502.039,
-        "acoes_em_circulacao_bi": 24.147,
-        "float_acoes_bi": 23.133,
-        "beta": 2.216,
-        "52w_max": 243.37,
-        "52w_min": 164.27,
-        "media_50d": 222.0774,
-        "media_200d": 202.15405,
-        "volume_medio_30d": 120322753,
-        "short_ratio": 2.75,
-        "insider_ownership_pct": 4.01,
-        "institutional_ownership_pct": 71.41
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2026-01-31",
-            "receita_total_mi": 215938.0,
-            "lucro_bruto_mi": 153463.0,
-            "ebitda_mi": 144552.0,
-            "lucro_liquido_mi": 120067.0,
-            "lucro_operacional_mi": 130387.0,
-            "pesquisa_desenv_mi": 18497.0
-          },
-          {
-            "periodo": "2025-01-31",
-            "receita_total_mi": 130497.0,
-            "lucro_bruto_mi": 97858.0,
-            "ebitda_mi": 86137.0,
-            "lucro_liquido_mi": 72880.0,
-            "lucro_operacional_mi": 81453.0,
-            "pesquisa_desenv_mi": 12914.0
-          },
-          {
-            "periodo": "2024-01-31",
-            "receita_total_mi": 60922.0,
-            "lucro_bruto_mi": 44301.0,
-            "ebitda_mi": 35583.0,
-            "lucro_liquido_mi": 29760.0,
-            "lucro_operacional_mi": 32972.0,
-            "pesquisa_desenv_mi": 8675.0
-          },
-          {
-            "periodo": "2023-01-31",
-            "receita_total_mi": 26974.0,
-            "lucro_bruto_mi": 15356.0,
-            "ebitda_mi": 5986.0,
-            "lucro_liquido_mi": 4368.0,
-            "lucro_operacional_mi": 5577.0,
-            "pesquisa_desenv_mi": 7339.0
-          },
-          {
-            "periodo": "2022-01-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-07-31",
-            "receita_total_mi": 96221.0,
-            "lucro_bruto_mi": 72142.0,
-            "ebitda_mi": 72861.0,
-            "lucro_liquido_mi": 59688.0,
-            "lucro_operacional_mi": 63734.0,
-            "pesquisa_desenv_mi": 7054.0
-          },
-          {
-            "periodo": "2026-04-30",
-            "receita_total_mi": 81615.0,
-            "lucro_bruto_mi": 61157.0,
-            "ebitda_mi": 71002.0,
-            "lucro_liquido_mi": 58321.0,
-            "lucro_operacional_mi": 53536.0,
-            "pesquisa_desenv_mi": 6321.0
-          },
-          {
-            "periodo": "2026-01-31",
-            "receita_total_mi": 68127.0,
-            "lucro_bruto_mi": 51093.0,
-            "ebitda_mi": 51283.0,
-            "lucro_liquido_mi": 42960.0,
-            "lucro_operacional_mi": 44299.0,
-            "pesquisa_desenv_mi": 5512.0
-          },
-          {
-            "periodo": "2025-10-31",
-            "receita_total_mi": 57006.0,
-            "lucro_bruto_mi": 41849.0,
-            "ebitda_mi": 38748.0,
-            "lucro_liquido_mi": 31910.0,
-            "lucro_operacional_mi": 36010.0,
-            "pesquisa_desenv_mi": 4705.0
-          },
-          {
-            "periodo": "2025-07-31",
-            "receita_total_mi": 46743.0,
-            "lucro_bruto_mi": 33853.0,
-            "ebitda_mi": 31937.0,
-            "lucro_liquido_mi": 26422.0,
-            "lucro_operacional_mi": 28440.0,
-            "pesquisa_desenv_mi": 4291.0
-          }
-        ]
-      }
-    },
-    "CVX": {
-      "identificacao": {
-        "ticker": "CVX",
-        "nome": "Chevron Corporation",
-        "setor": "Energy",
-        "industria": "Oil & Gas Integrated",
-        "pais": "United States",
-        "moeda": "USD",
-        "bolsa": "NYQ",
-        "site": "https://www.chevron.com",
-        "resumo_negocio": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations. It operates through Upstream and Downstream segments. The Upstream segment engages in the exploration for, development, production, and transportation of crude oil and natural gas; processing, liquefaction, transportation, and regasification of liquefied natural gas; transportation of crude oil through pipelines; transportation, storage, and marketing of natural gas; carbon capture and storage; and operation of a gas-to-liquids plant. The Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels; transports crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufactures and markets commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives. The company operates in North America, South America, Europe, Africa, Asia, and Australia. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in May 2005. Chevron Corporation was founded in 1879 and is headquartered in Houston, Texas."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:24",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 215.01,
-        "pe_ratio_trailing": 20.693935,
-        "pe_ratio_forward": 14.586294,
-        "pb_ratio": 2.2211776,
-        "ps_ratio": 2.0143104,
-        "ev_ebitda": 8.883,
-        "ev_receita": 2.149,
-        "eps_ttm": 10.39,
-        "eps_forward": 14.74055,
-        "dividend_yield_ttm_pct": 3.31,
-        "dividendo_por_acao": 7.12,
-        "payout_ratio_pct": 67.18,
-        "peg_ratio": 0.93
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 44.27,
-        "operating_margin_pct": 21.87,
-        "profit_margin_pct": 9.83,
-        "roe_pct": 12.23,
-        "roa_pct": 5.86,
-        "roic_pct": 4.83,
-        "crescimento_receita_yoy_pct": 53.5,
-        "crescimento_lucro_yoy_pct": 321.9,
-        "crescimento_eps_qoq_pct": 384.8
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 37.075,
-        "divida_liquida_bi": 28.545,
-        "div_liq_sobre_pl": 0.15,
-        "div_liq_sobre_ebitda": 0.56,
-        "div_liq_sobre_ebit": 1.71,
-        "caixa_total_bi": 8.53,
-        "caixa_por_acao": 4.348,
-        "current_ratio": 1.252,
-        "quick_ratio": 0.843,
-        "book_value_por_acao": 96.8,
-        "ebitda_bi": 50.662,
-        "ebit_bi": 16.674,
-        "free_cash_flow_bi": 21.934,
-        "operating_cash_flow_bi": 45.321
-      },
-      "mercado": {
-        "market_cap_bi": 421.764,
-        "enterprise_value_bi": 450.041,
-        "acoes_em_circulacao_bi": 1.962,
-        "float_acoes_bi": 1.868,
-        "beta": 0.523,
-        "52w_max": 217.78,
-        "52w_min": 146.49,
-        "media_50d": 204.2718,
-        "media_200d": 188.14165,
-        "volume_medio_30d": 8275298,
-        "short_ratio": 2.38,
-        "insider_ownership_pct": 4.77,
-        "institutional_ownership_pct": 71.2
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 184432.0,
-            "lucro_bruto_mi": 56086.0,
-            "ebitda_mi": 41417.0,
-            "lucro_liquido_mi": 12299.0,
-            "lucro_operacional_mi": 16674.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 193414.0,
-            "lucro_bruto_mi": 56926.0,
-            "ebitda_mi": 45811.0,
-            "lucro_liquido_mi": 17661.0,
-            "lucro_operacional_mi": 18917.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 196913.0,
-            "lucro_bruto_mi": 60391.0,
-            "ebitda_mi": 47815.0,
-            "lucro_liquido_mi": 21369.0,
-            "lucro_operacional_mi": 26229.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 235717.0,
-            "lucro_bruto_mi": 73982.0,
-            "ebitda_mi": 65485.0,
-            "lucro_liquido_mi": 35465.0,
-            "lucro_operacional_mi": 39950.0,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 67199.0,
-            "lucro_bruto_mi": 24510.0,
-            "ebitda_mi": 23034.0,
-            "lucro_liquido_mi": 12072.0,
-            "lucro_operacional_mi": 14276.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 47556.0,
-            "lucro_bruto_mi": 13483.0,
-            "ebitda_mi": 10183.0,
-            "lucro_liquido_mi": 2210.0,
-            "lucro_operacional_mi": 3222.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 45787.0,
-            "lucro_bruto_mi": 14555.0,
-            "ebitda_mi": 10924.0,
-            "lucro_liquido_mi": 2770.0,
-            "lucro_operacional_mi": 4023.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 48169.0,
-            "lucro_bruto_mi": 14990.0,
-            "ebitda_mi": 11810.0,
-            "lucro_liquido_mi": 3539.0,
-            "lucro_operacional_mi": 4297.0,
-            "pesquisa_desenv_mi": null
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 44375.0,
-            "lucro_bruto_mi": 13173.0,
-            "ebitda_mi": 8653.0,
-            "lucro_liquido_mi": 2490.0,
-            "lucro_operacional_mi": 4057.0,
-            "pesquisa_desenv_mi": null
-          }
-        ]
-      }
-    },
-    "AZN": {
-      "identificacao": {
-        "ticker": "AZN",
-        "nome": "AstraZeneca PLC",
-        "setor": "Healthcare",
-        "industria": "Drug Manufacturers - General",
-        "pais": "United Kingdom",
-        "moeda": "USD",
-        "bolsa": "NYQ",
-        "site": "https://www.astrazeneca.com",
-        "resumo_negocio": "AstraZeneca PLC, a biopharmaceutical company, focuses on the discovery, development, manufacture, and commercialization of prescription medicines. The company offers Imjudo, Datroway, Iressa, Tagrisso, Imfinzi, Lynparza, Calquence, Enhertu, Orpathys, Truqap, Zoladex, Faslodex, Crestor, Andexxa, Onglyza, Symlin, XIGDUO XR, Atacand, Atacand HCT, Atacand Plus, Farxiga/Forxiga, Plendil, Modip, Splendil, Munobal, Flodil, Tenormin, Tenormine, Prenormine, Atenol, Zestril, Brilinta/Brilique, Komboglyze, Qtern, Wainua, Byetta, Lokelma, Seloken ZOK, Toprol-XL, Betaloc ZOK, XIGDUO, Accolate, Accoleit, Vanticon, Bricanyl Respules, Eklira Genuair/Tudorza/Bretaris, Pulmicort Turbuhaler, Symbicort Turbuhaler, Airsupra, Bricanyl Turbuhaler, Fasenra, Rhinocort, Tezspire, Bevespi Aerosphere, Daliresp/Daxas, Oxis Turbuhaler, Saphnelo, Breztri Aerosphere, Duaklir Genuair, Pulmicort Respules, and Symbicort pMDI. It also provides Beyfortus, Kavigale, Evusheld, Fluenz/FluMist, Synagis, Kanuma, Ultomiris, Koselugo, Voydeya, Soliris, Strensiq, Nexium, and other medicines. The company offers its products for ocology, cardiovascular, renal and metabolism, respiratory & immunology, vaccines and immune, and therapies for rare diseases. It serves primary and specialty care physicians through distributors and local representative offices in the United Kingdom, the Americas, rest of Europe, Asia, Africa, and Australasia. It has a strategic agreement with Tempus and Pathos to develop the multimodal foundation model in oncology; CSPC Pharmaceutical Group Limited to advance the discovery and development of oral candidates, with the potential to treat diseases across multiple indications; Nucs AI Inc. to develop AI-driven Response Prediction for Therapeutic Radioconjugates; and Carterra, Inc. to advances lab-in-the-loop drug discovery through new scientific research collaboration. The company was formerly known as Zeneca Group PLC and changed its name to AstraZeneca PLC in April 1999. AstraZeneca PLC was incorporated in 1992 and is headquartered in Cambridge, the United Kingdom."
-      },
-      "meta": {
-        "data_coleta": "2026-10-12 20:02:25",
-        "fonte_principal": "Yahoo Finance via yfinance"
-      },
-      "valuation": {
-        "preco_atual": 158.3,
-        "pe_ratio_trailing": 23.662182,
-        "pe_ratio_forward": 13.979987,
-        "pb_ratio": 4.881735,
-        "ps_ratio": 4.000723,
-        "ev_ebitda": 13.55,
-        "ev_receita": 4.471,
-        "eps_ttm": 6.69,
-        "eps_forward": 11.32333,
-        "dividend_yield_ttm_pct": 2.02,
-        "dividendo_por_acao": 3.2,
-        "payout_ratio_pct": 46.95,
-        "peg_ratio": 1.12
-      },
-      "rentabilidade": {
-        "gross_margin_pct": 81.69,
-        "operating_margin_pct": 23.46,
-        "profit_margin_pct": 17.02,
-        "roe_pct": 21.96,
-        "roa_pct": 8.21,
-        "roic_pct": 14.16,
-        "crescimento_receita_yoy_pct": 6.4,
-        "crescimento_lucro_yoy_pct": 2.5,
-        "crescimento_eps_qoq_pct": 2.3
-      },
-      "saude_financeira": {
-        "divida_bruta_bi": 32.35,
-        "divida_liquida_bi": 27.382,
-        "div_liq_sobre_pl": 0.54,
-        "div_liq_sobre_ebitda": 1.35,
-        "div_liq_sobre_ebit": 2.05,
-        "caixa_total_bi": 4.968,
-        "caixa_por_acao": 3.203,
-        "current_ratio": 0.886,
-        "quick_ratio": 0.664,
-        "book_value_por_acao": 32.427,
-        "ebitda_bi": 20.249,
-        "ebit_bi": 13.327,
-        "free_cash_flow_bi": 5.121,
-        "operating_cash_flow_bi": 13.7
-      },
-      "mercado": {
-        "market_cap_bi": 245.508,
-        "enterprise_value_bi": 274.376,
-        "acoes_em_circulacao_bi": 1.551,
-        "float_acoes_bi": 1.543,
-        "beta": 0.212,
-        "52w_max": 212.71,
-        "52w_min": 153.41,
-        "media_50d": 162.0836,
-        "media_200d": 181.5323,
-        "volume_medio_30d": 3346314,
-        "short_ratio": 0.88,
-        "insider_ownership_pct": 0.05,
-        "institutional_ownership_pct": 65.08
-      },
-      "historico_financeiro": {
-        "anual": [
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 58739.0,
-            "lucro_bruto_mi": 48106.0,
-            "ebitda_mi": 19506.0,
-            "lucro_liquido_mi": 10225.0,
-            "lucro_operacional_mi": 13327.0,
-            "pesquisa_desenv_mi": 14232.0
-          },
-          {
-            "periodo": "2024-12-31",
-            "receita_total_mi": 54073.0,
-            "lucro_bruto_mi": 43866.0,
-            "ebitda_mi": 15438.0,
-            "lucro_liquido_mi": 7035.0,
-            "lucro_operacional_mi": 10251.0,
-            "pesquisa_desenv_mi": 13583.0
-          },
-          {
-            "periodo": "2023-12-31",
-            "receita_total_mi": 45811.0,
-            "lucro_bruto_mi": 37543.0,
-            "ebitda_mi": 13422.0,
-            "lucro_liquido_mi": 5955.0,
-            "lucro_operacional_mi": 8722.0,
-            "pesquisa_desenv_mi": 10935.0
-          },
-          {
-            "periodo": "2022-12-31",
-            "receita_total_mi": 44351.0,
-            "lucro_bruto_mi": 31960.0,
-            "ebitda_mi": 9085.0,
-            "lucro_liquido_mi": 3288.0,
-            "lucro_operacional_mi": 4512.0,
-            "pesquisa_desenv_mi": 9762.0
-          },
-          {
-            "periodo": "2021-12-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
-            "pesquisa_desenv_mi": null
-          }
-        ],
-        "trimestral": [
-          {
-            "periodo": "2026-06-30",
-            "receita_total_mi": 15384.0,
-            "lucro_bruto_mi": 12861.0,
-            "ebitda_mi": 5163.0,
-            "lucro_liquido_mi": 2507.0,
-            "lucro_operacional_mi": 3164.0,
-            "pesquisa_desenv_mi": 4053.0
-          },
-          {
-            "periodo": "2026-03-31",
-            "receita_total_mi": 15288.0,
-            "lucro_bruto_mi": 12610.0,
-            "ebitda_mi": 5673.0,
-            "lucro_liquido_mi": 3080.0,
-            "lucro_operacional_mi": 4246.0,
-            "pesquisa_desenv_mi": 3492.0
-          },
-          {
-            "periodo": "2025-12-31",
-            "receita_total_mi": 15503.0,
-            "lucro_bruto_mi": 12385.0,
-            "ebitda_mi": 4381.0,
-            "lucro_liquido_mi": 2326.0,
-            "lucro_operacional_mi": 2978.0,
-            "pesquisa_desenv_mi": 3862.0
-          },
-          {
-            "periodo": "2025-09-30",
-            "receita_total_mi": 15191.0,
-            "lucro_bruto_mi": 12390.0,
-            "ebitda_mi": 5227.0,
-            "lucro_liquido_mi": 2533.0,
-            "lucro_operacional_mi": 3583.0,
-            "pesquisa_desenv_mi": 3663.0
-          },
-          {
-            "periodo": "2025-06-30",
-            "receita_total_mi": 14457.0,
-            "lucro_bruto_mi": 11984.0,
-            "ebitda_mi": 4955.0,
-            "lucro_liquido_mi": 2450.0,
-            "lucro_operacional_mi": 3508.0,
-            "pesquisa_desenv_mi": 3548.0
-          },
-          {
-            "periodo": "2025-03-31",
-            "receita_total_mi": null,
-            "lucro_bruto_mi": null,
-            "ebitda_mi": null,
-            "lucro_liquido_mi": null,
-            "lucro_operacional_mi": null,
             "pesquisa_desenv_mi": null
           }
         ]

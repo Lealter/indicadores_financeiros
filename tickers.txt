@@ -8,26 +8,9 @@
 # ─────────────────────────────────────────────────────────────
  
 # === AÇÕES BRASILEIRAS =======================================
-BBAS3.SA
-ITUB4.SA
-BBSE3.SA
-WEGE3.SA
-EMBJ3.SA
-VALE3.SA
-KLBN11.SA
 PETR4.SA
-SAPR11.SA
-CMIG4.SA
-TAEE11.SA
+VALE3.SA
+ITUB4.SA
+BBAS3.SA
+WEGE3.SA
  
-# === AÇÕES AMERICANAS ========================================
-AMZN
-MCD
-KO
-BRK-B
-BAC
-AAPL
-MSFT
-NVDA
-CVX
-AZN

@@ -2,7 +2,7 @@
   "_metadados": {
     "script": "Análise Fundamentalista de Ações",
     "versao": "1.1",
-    "data_execucao": "2026-11-19 15:28:03",
+    "data_execucao": "2026-11-20 15:05:35",
     "total_ativos": 22,
     "sucesso": 22,
     "falhas": 0,
@@ -47,17 +47,17 @@
         "resumo_negocio": "Banco do Brasil S.A., together with its subsidiaries, provides banking products and services for individuals, companies, and public sectors in Brazil and internationally. The company operates through Banking, Investments, Fund Management, Insurance (including insurance, private pension funds and capitalization) and Electronic Payments segments. Its Banking segment offers various products and services, including deposits, loans, and other services to retail, wholesale, and public sectors. This segment also engages in the business with micro-entrepreneurs and other activities through banking correspondents. Its Investments segment engages in the structuring and distribution of debt and equity instruments in the primary and secondary markets; and provision of financial services. The company's Fund Management segment is involved in the purchase, sale, and custody of securities and portfolio management; and the structuring, organization, and management of investment funds and clubs. Its Insurance segment provides life, property, and automobile insurance products, as well as private pension and capitalization plans. The company's Electronic Payment segment provides capture, transmission, processing, and financial settlement services for electronic payment transactions. Its Other segment engages in the provision of credit recovery and consortium management services. This segment is also involved in the development, manufacturing, sale, rental, and integration of digital electronic systems, peripherals, programs, inputs, and computing supplies. The company was incorporated in 1808 and is headquartered in Brasília, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:50",
+        "data_coleta": "2026-11-20 15:05:23",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 14.29,
-        "pe_ratio_trailing": 7.4041452,
-        "pe_ratio_forward": 3.904553,
-        "pb_ratio": 0.44787815,
-        "ps_ratio": 1.1504097,
+        "preco_atual": 14.3,
+        "pe_ratio_trailing": 7.4093266,
+        "pe_ratio_forward": 3.9072852,
+        "pb_ratio": 0.44819155,
+        "ps_ratio": 1.1512147,
         "ev_ebitda": null,
-        "ev_receita": 13.309,
+        "ev_receita": 13.324,
         "eps_ttm": 1.93,
         "eps_forward": 3.65983,
         "dividend_yield_ttm_pct": 0.98,
@@ -93,8 +93,8 @@
         "operating_cash_flow_bi": 32.939
       },
       "mercado": {
-        "market_cap_bi": 81.581,
-        "enterprise_value_bi": 943.806,
+        "market_cap_bi": 81.638,
+        "enterprise_value_bi": 944.834,
         "acoes_em_circulacao_bi": 5.709,
         "float_acoes_bi": 2.588,
         "beta": 0.378,
@@ -102,10 +102,10 @@
         "52w_min": 14.02,
         "media_50d": 20.8106,
         "media_200d": 21.59865,
-        "volume_medio_30d": 52104037,
+        "volume_medio_30d": 51615731,
         "short_ratio": null,
         "insider_ownership_pct": 50.0,
-        "institutional_ownership_pct": 17.74
+        "institutional_ownership_pct": 17.67
       },
       "historico_financeiro": {
         "anual": [
@@ -226,20 +226,20 @@
         "resumo_negocio": "Banco Bradesco S.A., together with its subsidiaries, provides various banking products and services in Brazil and internationally. It operates in two segments, Banking and Insurance. The company engages in banking operations, including investment, national, international, and private banking, as well as investment fund management, consortium administration, middle market and corporate activities, and leasing. It also provides retail banking products, such as demand, savings, and time deposits, as well as mutual funds, foreign exchange services, and various loans and advances comprising overdrafts, credit cards, and loans with repayments in installments; and fund management and treasury services, corporate finance, and hedge and finance operations, which include working capital financing. In addition, the company provides insurance products, such as life, pension, health, and non-life, as well as related insurance operations, supplemental pension plans, and capitalization bonds. Further, it offers cards, consortia, service packages and fees, auctions, debt renegotiation, and accounts; and various services comprising related transactions and inquiries, profile and help, purchases and benefits, and permissions. The company serves individuals, corporates, and businesses. Banco Bradesco S.A. was founded in 1943 and is headquartered in Osasco, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:51",
+        "data_coleta": "2026-11-20 15:05:24",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 14.02,
-        "pe_ratio_trailing": 5.9406786,
-        "pe_ratio_forward": 5.191055,
-        "pb_ratio": 0.75980926,
-        "ps_ratio": 1.6323712,
+        "preco_atual": 13.83,
+        "pe_ratio_trailing": 5.86017,
+        "pe_ratio_forward": 5.120705,
+        "pb_ratio": 0.74951226,
+        "ps_ratio": 1.610249,
         "ev_ebitda": null,
-        "ev_receita": 7.135,
+        "ev_receita": 7.108,
         "eps_ttm": 2.36,
         "eps_forward": 2.7008,
-        "dividend_yield_ttm_pct": 1.64,
+        "dividend_yield_ttm_pct": 1.66,
         "dividendo_por_acao": 0.23,
         "payout_ratio_pct": 53.23,
         "peg_ratio": 0.99
@@ -272,8 +272,8 @@
         "operating_cash_flow_bi": -215.506
       },
       "mercado": {
-        "market_cap_bi": 156.539,
-        "enterprise_value_bi": 684.246,
+        "market_cap_bi": 154.417,
+        "enterprise_value_bi": 681.603,
         "acoes_em_circulacao_bi": 5.574,
         "float_acoes_bi": 7.213,
         "beta": 0.312,
@@ -281,10 +281,10 @@
         "52w_min": 13.44,
         "media_50d": 17.7122,
         "media_200d": 18.424736,
-        "volume_medio_30d": 61176379,
+        "volume_medio_30d": 61573165,
         "short_ratio": null,
         "insider_ownership_pct": 2.33,
-        "institutional_ownership_pct": 33.95
+        "institutional_ownership_pct": 33.94
       },
       "historico_financeiro": {
         "anual": [
@@ -405,20 +405,20 @@
         "resumo_negocio": "BB Seguridade Participações S.A., through its subsidiaries operates in the insurance, pension plans, and bonds, businesses in Brazil. The company operates through two segments, Insurance and Brokerage. The Insurance segment offers insurance products and services, including life, property and vehicle insurance, property insurance, rural, special risks and financial, transport, hulls, and housing people, as well as supplementary pension, dental, and capitalization plans. Its Brokerage segment engages in the brokerage and administration, implementation, promotion, and viability of insurance businesses in the basic, life, and capitalization sectors, as well as open pension plans and dental plans. The company was founded in 1981 and is headquartered in Brasília, Brazil. BB Seguridade Participações S.A. operates as a subsidiary of Banco do Brasil S.A."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:51",
+        "data_coleta": "2026-11-20 15:05:24",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 36.53,
-        "pe_ratio_trailing": 7.578838,
-        "pe_ratio_forward": 8.400366,
-        "pb_ratio": 5.2614145,
-        "ps_ratio": 6.8091574,
-        "ev_ebitda": 6.69,
-        "ev_receita": 6.395,
+        "preco_atual": 36.99,
+        "pe_ratio_trailing": 7.674274,
+        "pe_ratio_forward": 8.506147,
+        "pb_ratio": 5.3276687,
+        "ps_ratio": 6.894902,
+        "ev_ebitda": 6.754,
+        "ev_receita": 6.456,
         "eps_ttm": 4.82,
         "eps_forward": 4.34862,
-        "dividend_yield_ttm_pct": 12.57,
+        "dividend_yield_ttm_pct": 12.41,
         "dividendo_por_acao": 4.59,
         "payout_ratio_pct": 96.84,
         "peg_ratio": null
@@ -451,8 +451,8 @@
         "operating_cash_flow_bi": 3.271
       },
       "mercado": {
-        "market_cap_bi": 70.914,
-        "enterprise_value_bi": 66.598,
+        "market_cap_bi": 71.807,
+        "enterprise_value_bi": 67.238,
         "acoes_em_circulacao_bi": 1.941,
         "float_acoes_bi": 0.616,
         "beta": 0.044,
@@ -460,10 +460,10 @@
         "52w_min": 33.02,
         "media_50d": 40.17,
         "media_200d": 37.6751,
-        "volume_medio_30d": 7648637,
+        "volume_medio_30d": 7704175,
         "short_ratio": null,
         "insider_ownership_pct": 68.25,
-        "institutional_ownership_pct": 13.89
+        "institutional_ownership_pct": 13.91
       },
       "historico_financeiro": {
         "anual": [
@@ -584,20 +584,20 @@
         "resumo_negocio": "Bradespar S.A., through its interest in VALE, operates as a mining company in the production of iron ore and pellets, and nickel in Brazil. It also produces copper, platinum group metals, gold, cobalt, and silver. The company was founded in 1942 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:52",
+        "data_coleta": "2026-11-20 15:05:25",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 16.84,
-        "pe_ratio_trailing": 12.028572,
-        "pe_ratio_forward": 2.6517262,
-        "pb_ratio": 0.82238615,
+        "preco_atual": 16.58,
+        "pe_ratio_trailing": 11.842857,
+        "pe_ratio_forward": 2.610785,
+        "pb_ratio": 0.8096889,
         "ps_ratio": null,
         "ev_ebitda": null,
         "ev_receita": null,
         "eps_ttm": 1.4,
         "eps_forward": 6.35058,
-        "dividend_yield_ttm_pct": 19.0,
+        "dividend_yield_ttm_pct": 19.3,
         "dividendo_por_acao": 3.2,
         "payout_ratio_pct": 168.83,
         "peg_ratio": null
@@ -630,19 +630,19 @@
         "operating_cash_flow_bi": 0.787
       },
       "mercado": {
-        "market_cap_bi": 6.62,
-        "enterprise_value_bi": 6.377,
+        "market_cap_bi": 6.518,
+        "enterprise_value_bi": 6.267,
         "acoes_em_circulacao_bi": 0.255,
         "float_acoes_bi": 0.303,
         "beta": 0.562,
         "52w_max": 25.63,
-        "52w_min": 16.8,
+        "52w_min": 16.44,
         "media_50d": 19.8434,
         "media_200d": 21.9587,
-        "volume_medio_30d": 4198493,
+        "volume_medio_30d": 4226781,
         "short_ratio": null,
         "insider_ownership_pct": 1.12,
-        "institutional_ownership_pct": 79.49
+        "institutional_ownership_pct": 79.48
       },
       "historico_financeiro": {
         "anual": [
@@ -754,20 +754,20 @@
         "resumo_negocio": "Companhia Energética de Minas Gerais - CEMIG, through its subsidiaries, engages in the generation, transmission, distribution, and sale of energy in Brazil. As of December 31, 2025, the company operated 32 hydro plants with a total capacity of 4,434 M, 2 wind farms with a total capacity of 71 MW, and 12 photovoltaic power stations with a total capacity of 169 MW; 365,577 miles of distribution lines; and 4,865 miles of transmission lines. It is also involved in the acquisition, transportation, and distribution of gas and its sub products and derivatives; sale and trading of energy; construction, implementation, operation and maintenance of electricity transmission; marketing and intermediation of energy-related business; installation, operation, maintenance and rental of solar plants; and distributed generation, account services, cogeneration, energy efficiency, and supply and storage management activities. The company was incorporated in 1952 and is headquartered in Belo Horizonte, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:52",
+        "data_coleta": "2026-11-20 15:05:25",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 10.81,
-        "pe_ratio_trailing": 6.6728396,
-        "pe_ratio_forward": 9.94828,
-        "pb_ratio": 1.0067052,
-        "ps_ratio": 0.6983236,
-        "ev_ebitda": 5.712,
-        "ev_receita": 1.158,
+        "preco_atual": 10.94,
+        "pe_ratio_trailing": 6.753086,
+        "pe_ratio_forward": 10.067917,
+        "pb_ratio": 1.0188117,
+        "ps_ratio": 0.70672154,
+        "ev_ebitda": 5.715,
+        "ev_receita": 1.159,
         "eps_ttm": 1.62,
         "eps_forward": 1.08662,
-        "dividend_yield_ttm_pct": 10.55,
+        "dividend_yield_ttm_pct": 10.42,
         "dividendo_por_acao": 1.14,
         "payout_ratio_pct": 79.06,
         "peg_ratio": null
@@ -800,8 +800,8 @@
         "operating_cash_flow_bi": 3.86
       },
       "mercado": {
-        "market_cap_bi": 30.924,
-        "enterprise_value_bi": 51.275,
+        "market_cap_bi": 31.296,
+        "enterprise_value_bi": 51.304,
         "acoes_em_circulacao_bi": 1.904,
         "float_acoes_bi": 2.373,
         "beta": 0.112,
@@ -809,10 +809,10 @@
         "52w_min": 9.86,
         "media_50d": 11.128,
         "media_200d": 11.4425,
-        "volume_medio_30d": 17709530,
+        "volume_medio_30d": 17547029,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 52.09
+        "institutional_ownership_pct": 52.11
       },
       "historico_financeiro": {
         "anual": [
@@ -933,20 +933,20 @@
         "resumo_negocio": "CSN Mineração S.A. engages in the iron ore mining business in Brazil, Asia, and Europe. The company operates Casa de Pedra, Engenho, and Pires mines. It also operates a hydroelectric power plant. The company was founded in 1913 and is based in São Paulo, Brazil. CSN Mineração S.A. operates as a subsidiary of Companhia Siderúrgica Nacional."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:53",
+        "data_coleta": "2026-11-20 15:05:26",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 4.95,
-        "pe_ratio_trailing": 21.521738,
-        "pe_ratio_forward": 17.254,
-        "pb_ratio": 4.02439,
-        "ps_ratio": 1.7072567,
-        "ev_ebitda": 8.102,
-        "ev_receita": 1.942,
+        "preco_atual": 5.02,
+        "pe_ratio_trailing": 21.826086,
+        "pe_ratio_forward": 17.497995,
+        "pb_ratio": 4.0813007,
+        "ps_ratio": 1.7313998,
+        "ev_ebitda": 8.029,
+        "ev_receita": 1.924,
         "eps_ttm": 0.23,
         "eps_forward": 0.28689,
-        "dividend_yield_ttm_pct": 4.44,
+        "dividend_yield_ttm_pct": 4.38,
         "dividendo_por_acao": 0.22,
         "payout_ratio_pct": 164.88,
         "peg_ratio": null
@@ -979,8 +979,8 @@
         "operating_cash_flow_bi": 0.066
       },
       "mercado": {
-        "market_cap_bi": 26.569,
-        "enterprise_value_bi": 30.22,
+        "market_cap_bi": 26.945,
+        "enterprise_value_bi": 29.948,
         "acoes_em_circulacao_bi": 5.368,
         "float_acoes_bi": 0.398,
         "beta": null,
@@ -988,7 +988,7 @@
         "52w_min": 4.08,
         "media_50d": 5.1162,
         "media_200d": 5.09925,
-        "volume_medio_30d": 8719338,
+        "volume_medio_30d": 8777685,
         "short_ratio": null,
         "insider_ownership_pct": 92.18,
         "institutional_ownership_pct": 1.9
@@ -1103,20 +1103,20 @@
         "resumo_negocio": "CPFL Energia S.A., through its subsidiaries, operates as an energy company in Brazil. It operates through Distribution, Generation, Transmission, Commercialization, and Services segments. The company generates electricity through hydroelectric, solar, wind, and biomass sources. It also engages in operation and maintenance of electric energy transmission facilities; and commercialization of electricity. As of December 31, 2025, the company's distribution network consisted of 349,342 kilometers of distribution lines, as well as 12,154 kilometers of high voltage distribution lines; and 596 high voltage and medium voltage transformer substations with a total transformation capacity of 20,637 MVA. It serves residential, commercial, and industrial sectors. The company was founded in 1912 and is based in Campinas, Brazil. CPFL Energia S.A. operates as a subsidiary of State Grid Brazil Power Participações S.A."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:54",
+        "data_coleta": "2026-11-20 15:05:26",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 43.35,
-        "pe_ratio_trailing": 8.304598,
-        "pe_ratio_forward": 10.843301,
-        "pb_ratio": 2.0895593,
-        "ps_ratio": 1.1062964,
-        "ev_ebitda": 6.222,
-        "ev_receita": 1.898,
+        "preco_atual": 43.78,
+        "pe_ratio_trailing": 8.386973,
+        "pe_ratio_forward": 10.950858,
+        "pb_ratio": 2.1102862,
+        "ps_ratio": 1.11727,
+        "ev_ebitda": 6.192,
+        "ev_receita": 1.888,
         "eps_ttm": 5.22,
         "eps_forward": 3.99786,
-        "dividend_yield_ttm_pct": 6.51,
+        "dividend_yield_ttm_pct": 6.44,
         "dividendo_por_acao": 2.82,
         "payout_ratio_pct": 55.08,
         "peg_ratio": 0.97
@@ -1149,8 +1149,8 @@
         "operating_cash_flow_bi": 6.199
       },
       "mercado": {
-        "market_cap_bi": 49.95,
-        "enterprise_value_bi": 85.682,
+        "market_cap_bi": 50.446,
+        "enterprise_value_bi": 85.267,
         "acoes_em_circulacao_bi": 1.152,
         "float_acoes_bi": 0.188,
         "beta": 0.122,
@@ -1158,10 +1158,10 @@
         "52w_min": 40.24,
         "media_50d": 45.9982,
         "media_200d": 46.7479,
-        "volume_medio_30d": 2160958,
+        "volume_medio_30d": 2175822,
         "short_ratio": null,
         "insider_ownership_pct": 83.71,
-        "institutional_ownership_pct": 9.08
+        "institutional_ownership_pct": 9.05
       },
       "historico_financeiro": {
         "anual": [
@@ -1291,20 +1291,20 @@
         "resumo_negocio": "Companhia Paranaense de Energia - COPEL, together with its subsidiaries, engages in the research, study, planning, construction, production, transformation, transportation, distribution, and commercialization of electricity in Brazil. The company operates through three segments: Generation and Transmission of Electrical Energy; Electrical Energy Distribution; and Commercialization. It produces electricity from hydroelectric and wind power; and constructs, operates, and maintains substations, as well as lines for energy transmission. The company was formerly known as Companhia Paranaense de Energia Elétrica and changed its name to Companhia Paranaense de Energia - COPEL in October 1979. Companhia Paranaense de Energia - COPEL was founded in 1954 and is headquartered in Curitiba, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:54",
+        "data_coleta": "2026-11-20 15:05:27",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 15.16,
-        "pe_ratio_trailing": 12.847458,
-        "pe_ratio_forward": 14.129005,
-        "pb_ratio": 1.9465845,
-        "ps_ratio": 1.6005541,
-        "ev_ebitda": 8.972,
-        "ev_receita": 2.347,
+        "preco_atual": 15.19,
+        "pe_ratio_trailing": 12.872882,
+        "pe_ratio_forward": 14.156965,
+        "pb_ratio": 1.9504365,
+        "ps_ratio": 1.6037215,
+        "ev_ebitda": 8.935,
+        "ev_receita": 2.338,
         "eps_ttm": 1.18,
         "eps_forward": 1.07297,
-        "dividend_yield_ttm_pct": 6.99,
+        "dividend_yield_ttm_pct": 6.98,
         "dividendo_por_acao": 1.06,
         "payout_ratio_pct": 90.36,
         "peg_ratio": 1.98
@@ -1337,8 +1337,8 @@
         "operating_cash_flow_bi": 2.18
       },
       "mercado": {
-        "market_cap_bi": 45.019,
-        "enterprise_value_bi": 66.018,
+        "market_cap_bi": 45.108,
+        "enterprise_value_bi": 65.75,
         "acoes_em_circulacao_bi": 2.97,
         "float_acoes_bi": 1.904,
         "beta": null,
@@ -1346,10 +1346,10 @@
         "52w_min": 12.02,
         "media_50d": 16.04,
         "media_200d": 15.26125,
-        "volume_medio_30d": 22666590,
+        "volume_medio_30d": 22654609,
         "short_ratio": null,
         "insider_ownership_pct": 15.93,
-        "institutional_ownership_pct": 63.15
+        "institutional_ownership_pct": 63.09
       },
       "historico_financeiro": {
         "anual": [
@@ -1479,19 +1479,19 @@
         "resumo_negocio": "Companhia de Saneamento de Minas Gerais plans, executes, expands, remodels, and explores public services, basic sanitation, water supply, sewage, sanitary, and solid waste in Brazil and internationally. It is involved in collection, treatment, and distribution of treated water to end consumers; collection, transportation, recycling, treatment, and final disposal of urban, domestic, and industrial waste; and urban cleaning and solid waste management, as well as drainage and management of urban rainwater. The company was formerly known as Companhia Mineira de Água e Esgotos and changed its name to Companhia de Saneamento de Minas Gerais in November 1974. Companhia de Saneamento de Minas Gerais was founded in 1963 and is headquartered in Belo Horizonte, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:55",
+        "data_coleta": "2026-11-20 15:05:27",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 56.19,
-        "pe_ratio_trailing": 16.823353,
-        "pe_ratio_forward": 13.0112505,
-        "pb_ratio": 2.3433003,
-        "ps_ratio": 2.3747866,
-        "ev_ebitda": 9.835,
-        "ev_receita": 3.262,
+        "preco_atual": 56.09,
+        "pe_ratio_trailing": 16.793413,
+        "pe_ratio_forward": 13.77165,
+        "pb_ratio": 2.3391302,
+        "ps_ratio": 2.3705604,
+        "ev_ebitda": 9.91,
+        "ev_receita": 3.287,
         "eps_ttm": 3.34,
-        "eps_forward": 4.31857,
+        "eps_forward": 4.07286,
         "dividend_yield_ttm_pct": 1.82,
         "dividendo_por_acao": 1.02,
         "payout_ratio_pct": 48.6,
@@ -1525,8 +1525,8 @@
         "operating_cash_flow_bi": 2.178
       },
       "mercado": {
-        "market_cap_bi": 21.306,
-        "enterprise_value_bi": 29.264,
+        "market_cap_bi": 21.268,
+        "enterprise_value_bi": 29.487,
         "acoes_em_circulacao_bi": 0.379,
         "float_acoes_bi": 0.246,
         "beta": null,
@@ -1534,10 +1534,10 @@
         "52w_min": 37.34,
         "media_50d": 56.6976,
         "media_200d": 57.101,
-        "volume_medio_30d": 5224659,
+        "volume_medio_30d": 5194039,
         "short_ratio": null,
         "insider_ownership_pct": 35.03,
-        "institutional_ownership_pct": 42.37
+        "institutional_ownership_pct": 42.2
       },
       "historico_financeiro": {
         "anual": [
@@ -1658,20 +1658,20 @@
         "resumo_negocio": "Cury Construtora e Incorporadora S.A. operates in real estate businesses in Brazil. The company engages in selling real estate units; credit analysis services; residential real estate developments; rental of own properties; and provision of services relating to construction, supervision, studies, and projects, in addition to the execution of any construction works and civil engineering. It also provides construction, management, real estate administration, and electrical and hydraulic installation services. The company was founded in 1963 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:55",
+        "data_coleta": "2026-11-20 15:05:28",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 25.76,
-        "pe_ratio_trailing": 6.7789474,
-        "pe_ratio_forward": 5.5836616,
-        "pb_ratio": 5.251784,
-        "ps_ratio": 1.2095352,
-        "ev_ebitda": 5.686,
-        "ev_receita": 1.413,
+        "preco_atual": 25.01,
+        "pe_ratio_trailing": 6.581579,
+        "pe_ratio_forward": 5.421094,
+        "pb_ratio": 5.0988784,
+        "ps_ratio": 1.1743197,
+        "ev_ebitda": 5.622,
+        "ev_receita": 1.397,
         "eps_ttm": 3.8,
         "eps_forward": 4.61346,
-        "dividend_yield_ttm_pct": 19.22,
+        "dividend_yield_ttm_pct": 19.79,
         "dividendo_por_acao": 4.95,
         "payout_ratio_pct": 113.46,
         "peg_ratio": null
@@ -1704,8 +1704,8 @@
         "operating_cash_flow_bi": null
       },
       "mercado": {
-        "market_cap_bi": 7.935,
-        "enterprise_value_bi": 9.268,
+        "market_cap_bi": 7.704,
+        "enterprise_value_bi": 9.163,
         "acoes_em_circulacao_bi": 0.308,
         "float_acoes_bi": 0.19,
         "beta": 0.056,
@@ -1713,10 +1713,10 @@
         "52w_min": 19.6,
         "media_50d": 29.3656,
         "media_200d": 32.4212,
-        "volume_medio_30d": 5032412,
+        "volume_medio_30d": 5052922,
         "short_ratio": null,
         "insider_ownership_pct": 47.66,
-        "institutional_ownership_pct": 34.76
+        "institutional_ownership_pct": 34.54
       },
       "historico_financeiro": {
         "anual": [
@@ -1828,20 +1828,20 @@
         "resumo_negocio": "Caixa Seguridade Participações S.A., together with its subsidiaries, provides insurance products in Brazil and internationally. The company operates in three segments: Run-Off/Open Sea, Security, and Distribution. It offers life, home and housing, personal accident, and debt-free insurance products for individuals; and life, home and housing, car, and lender's insurance products for businesses. The company also provides social security, including private and corporate pension plans; capitalization; consortium; and brokerage and intermediation of security products. In addition, it engages in the acquisition of equity interests or holding; administration, marketing, and provision of private health and dental plans; structuring, administration, and marketing of credit letters; and reinsurance and retrocession transactions. The company was incorporated in 2015 and is headquartered in Brasília, Brazil. Caixa Seguridade Participações S.A. operates as a subsidiary of Caixa Econômica Federal."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:56",
+        "data_coleta": "2026-11-20 15:05:28",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 20.28,
-        "pe_ratio_trailing": 13.342106,
-        "pe_ratio_forward": 11.944097,
-        "pb_ratio": 4.3426123,
-        "ps_ratio": 10.115943,
-        "ev_ebitda": 12.298,
-        "ev_receita": 10.061,
+        "preco_atual": 20.57,
+        "pe_ratio_trailing": 13.532895,
+        "pe_ratio_forward": 12.114894,
+        "pb_ratio": 4.404711,
+        "ps_ratio": 10.260599,
+        "ev_ebitda": 12.34,
+        "ev_receita": 10.096,
         "eps_ttm": 1.52,
         "eps_forward": 1.69791,
-        "dividend_yield_ttm_pct": 7.1,
+        "dividend_yield_ttm_pct": 7.0,
         "dividendo_por_acao": 1.44,
         "payout_ratio_pct": 88.92,
         "peg_ratio": null
@@ -1874,8 +1874,8 @@
         "operating_cash_flow_bi": 3.974
       },
       "mercado": {
-        "market_cap_bi": 60.84,
-        "enterprise_value_bi": 60.509,
+        "market_cap_bi": 61.71,
+        "enterprise_value_bi": 60.719,
         "acoes_em_circulacao_bi": 3.0,
         "float_acoes_bi": 0.6,
         "beta": -0.032,
@@ -1883,7 +1883,7 @@
         "52w_min": 15.55,
         "media_50d": 20.8642,
         "media_200d": 19.34595,
-        "volume_medio_30d": 7833509,
+        "volume_medio_30d": 7866068,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 86.95
@@ -2007,20 +2007,20 @@
         "resumo_negocio": "Direcional Engenharia S.A. engages in the development and construction of affordable and mid-range residential real estate projects primarily in Brazil. The company focuses on the development, construction, and sale of housing units for low-income and middle-income families. The company was founded in 1981 and is based in Belo Horizonte, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:56",
+        "data_coleta": "2026-11-20 15:05:29",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 8.9,
-        "pe_ratio_trailing": 5.4601226,
-        "pe_ratio_forward": 4.4059405,
-        "pb_ratio": 1.8422687,
-        "ps_ratio": 0.95640075,
-        "ev_ebitda": 4.692,
-        "ev_receita": 1.186,
+        "preco_atual": 8.74,
+        "pe_ratio_trailing": 5.3619633,
+        "pe_ratio_forward": 4.3267326,
+        "pb_ratio": 1.8091493,
+        "ps_ratio": 0.93920714,
+        "ev_ebitda": 4.611,
+        "ev_receita": 1.166,
         "eps_ttm": 1.63,
         "eps_forward": 2.02,
-        "dividend_yield_ttm_pct": 17.42,
+        "dividend_yield_ttm_pct": 17.73,
         "dividendo_por_acao": 1.55,
         "payout_ratio_pct": 95.09,
         "peg_ratio": null
@@ -2053,8 +2053,8 @@
         "operating_cash_flow_bi": 0.599
       },
       "mercado": {
-        "market_cap_bi": 4.618,
-        "enterprise_value_bi": 5.729,
+        "market_cap_bi": 4.535,
+        "enterprise_value_bi": 5.63,
         "acoes_em_circulacao_bi": 0.519,
         "float_acoes_bi": 0.301,
         "beta": 0.346,
@@ -2062,10 +2062,10 @@
         "52w_min": 7.79,
         "media_50d": 10.116,
         "media_200d": 12.45035,
-        "volume_medio_30d": 13927619,
+        "volume_medio_30d": 14016998,
         "short_ratio": null,
         "insider_ownership_pct": 28.12,
-        "institutional_ownership_pct": 60.21
+        "institutional_ownership_pct": 60.25
       },
       "historico_financeiro": {
         "anual": [
@@ -2186,17 +2186,17 @@
         "resumo_negocio": "ISA Energía Brasil S.A. engages in the electric power transmission business in Brazil. As of December 31, 2025, it had a total installed transformation capacity of 84,910 MVA together with transmission lines of 23,000 kilometers. It operates in the states of Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, and São Paulo. ISA Energía Brasil S.A. was incorporated in 1999 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:57",
+        "data_coleta": "2026-11-20 15:05:30",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 26.06,
-        "pe_ratio_trailing": 5.843049,
-        "pe_ratio_forward": 8.888677,
-        "pb_ratio": 0.7684142,
-        "ps_ratio": 1.7537512,
-        "ev_ebitda": 7.574,
-        "ev_receita": 3.391,
+        "preco_atual": 26.05,
+        "pe_ratio_trailing": 5.840807,
+        "pe_ratio_forward": 8.885265,
+        "pb_ratio": 0.7681193,
+        "ps_ratio": 1.753078,
+        "ev_ebitda": 7.553,
+        "ev_receita": 3.381,
         "eps_ttm": 4.46,
         "eps_forward": 2.93182,
         "dividend_yield_ttm_pct": 8.56,
@@ -2232,8 +2232,8 @@
         "operating_cash_flow_bi": -1.196
       },
       "mercado": {
-        "market_cap_bi": 18.329,
-        "enterprise_value_bi": 35.438,
+        "market_cap_bi": 18.322,
+        "enterprise_value_bi": 35.34,
         "acoes_em_circulacao_bi": 0.465,
         "float_acoes_bi": 0.347,
         "beta": 0.149,
@@ -2241,10 +2241,10 @@
         "52w_min": 24.38,
         "media_50d": 27.2844,
         "media_200d": 27.998,
-        "volume_medio_30d": 4437080,
+        "volume_medio_30d": 4449777,
         "short_ratio": null,
         "insider_ownership_pct": 30.29,
-        "institutional_ownership_pct": 21.13
+        "institutional_ownership_pct": 21.18
       },
       "historico_financeiro": {
         "anual": [
@@ -2365,18 +2365,18 @@
         "resumo_negocio": "Itaúsa S.A., through its subsidiaries, operates a banking institution in Brazil and internationally. It operates through Dexco, Itaúsa, and Other segments. The company offers credit products, credit cards, asset management, investments, private banking, insurance, pension plans, and other financial services to individual and corporate clients. It also engages in the operation of platforms for highways, subways, trains, light rail, ferries, and airports; the distribution of LPG; and the transportation of natural gas through gas pipelines to distribution companies. In addition, the company manufactures and sells bathroom fixtures, fittings, and showers under the Deca, Hydra and Elizabeth brands; ceramic tiles under the Ceusa, Portinari, and Castelatto brands; medium- and high-density wood panels under the Duratex brand; laminate flooring under the Durafloor brand; dissolving wood pulp; and footwear, apparel, and textiles, as well as related components, including leather, resin, and natural and artificial rubber. Further, it provides private sanitation services. The company was formerly known as Itaúsa - Investimentos Itaú SA and changed its name to Itaúsa S.A. in June 2020. Itaúsa S.A. was incorporated in 1966 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:57",
+        "data_coleta": "2026-11-20 15:05:30",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
         "preco_atual": 13.17,
-        "pe_ratio_trailing": 7.792899,
+        "pe_ratio_trailing": 7.839286,
         "pe_ratio_forward": 7.0997305,
         "pb_ratio": 1.5065203,
         "ps_ratio": 16.998825,
-        "ev_ebitda": 86.348,
-        "ev_receita": 18.099,
-        "eps_ttm": 1.69,
+        "ev_ebitda": 86.471,
+        "ev_receita": 18.125,
+        "eps_ttm": 1.68,
         "eps_forward": 1.855,
         "dividend_yield_ttm_pct": 0.76,
         "dividendo_por_acao": 0.1,
@@ -2412,7 +2412,7 @@
       },
       "mercado": {
         "market_cap_bi": 147.601,
-        "enterprise_value_bi": 157.154,
+        "enterprise_value_bi": 157.378,
         "acoes_em_circulacao_bi": 7.354,
         "float_acoes_bi": 6.953,
         "beta": 0.283,
@@ -2420,10 +2420,10 @@
         "52w_min": 11.186274,
         "media_50d": 14.3046,
         "media_200d": 13.73325,
-        "volume_medio_30d": 33249138,
+        "volume_medio_30d": 33456963,
         "short_ratio": null,
         "insider_ownership_pct": 20.54,
-        "institutional_ownership_pct": 37.11
+        "institutional_ownership_pct": 37.03
       },
       "historico_financeiro": {
         "anual": [
@@ -2553,20 +2553,20 @@
         "resumo_negocio": "MBRF Global Foods Company S.A., through its subsidiaries, operates in the food industry in Brazil and internationally. It operates through Beef North America, Beef South America, and BRF segments. The company produces, processes, distributes, and sells animal-based proteins, such as beef, pork, lamb, fish, and poultry; pasta, margarine, vegetable, pet food, and plant-based proteins; processed hamburgers; and various ready-to-eat products. It also engages in leather industrialization; trading activities; transportation; transportation leasing; energy generation, trading, and related services; processing, sale, distribution, and retail of animal feed and nutritional products; road freight; manufacture, distribution, and marketing of pet food products; and processing of canned meats and other processed products. In addition, the company provides administrative and marketing services, logistics services, and consulting services. It imports, sells, and exports its products to restaurant and supermarket chains, and homes. The company sells its products under the Sadia, Sadia Bassi, Perdigão, Perdigão Montana, Perdigão Na Brasa, Qualy, Claybom, Deline, Banvit, Paty, and Quickfood brands. MBRF Global Foods Company S.A. was founded in 1986 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:58",
+        "data_coleta": "2026-11-20 15:05:31",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 18.45,
-        "pe_ratio_trailing": 55.909092,
-        "pe_ratio_forward": 16.612043,
-        "pb_ratio": 2.2186148,
-        "ps_ratio": 0.15200473,
-        "ev_ebitda": 7.85,
-        "ev_receita": 0.484,
+        "preco_atual": 18.39,
+        "pe_ratio_trailing": 55.72727,
+        "pe_ratio_forward": 16.55802,
+        "pb_ratio": 2.2113996,
+        "ps_ratio": 0.1515104,
+        "ev_ebitda": 7.81,
+        "ev_receita": 0.481,
         "eps_ttm": 0.33,
         "eps_forward": 1.11064,
-        "dividend_yield_ttm_pct": 15.23,
+        "dividend_yield_ttm_pct": 15.28,
         "dividendo_por_acao": 2.81,
         "payout_ratio_pct": 0.0,
         "peg_ratio": 2.82
@@ -2599,8 +2599,8 @@
         "operating_cash_flow_bi": 10.452
       },
       "mercado": {
-        "market_cap_bi": 25.159,
-        "enterprise_value_bi": 80.031,
+        "market_cap_bi": 25.077,
+        "enterprise_value_bi": 79.62,
         "acoes_em_circulacao_bi": 1.364,
         "float_acoes_bi": 0.755,
         "beta": 0.104,
@@ -2608,10 +2608,10 @@
         "52w_min": 14.49,
         "media_50d": 17.394,
         "media_200d": 17.54085,
-        "volume_medio_30d": 6206941,
+        "volume_medio_30d": 6096542,
         "short_ratio": null,
         "insider_ownership_pct": 46.42,
-        "institutional_ownership_pct": 37.79
+        "institutional_ownership_pct": 37.78
       },
       "historico_financeiro": {
         "anual": [
@@ -2741,20 +2741,20 @@
         "resumo_negocio": "Petróleo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petróleo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:58",
+        "data_coleta": "2026-11-20 15:05:31",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 43.17,
-        "pe_ratio_trailing": 3.9209807,
-        "pe_ratio_forward": 2.9840324,
-        "pb_ratio": 1.1024567,
-        "ps_ratio": 0.99985194,
-        "ev_ebitda": 3.18,
-        "ev_receita": 1.453,
+        "preco_atual": 42.67,
+        "pe_ratio_trailing": 3.8755674,
+        "pe_ratio_forward": 2.949471,
+        "pb_ratio": 1.0896878,
+        "ps_ratio": 0.98827153,
+        "ev_ebitda": 3.156,
+        "ev_receita": 1.442,
         "eps_ttm": 11.01,
         "eps_forward": 14.467,
-        "dividend_yield_ttm_pct": 8.48,
+        "dividend_yield_ttm_pct": 8.58,
         "dividendo_por_acao": 3.66,
         "payout_ratio_pct": 33.39,
         "peg_ratio": 5.52
@@ -2787,8 +2787,8 @@
         "operating_cash_flow_bi": 222.489
       },
       "mercado": {
-        "market_cap_bi": 589.853,
-        "enterprise_value_bi": 857.209,
+        "market_cap_bi": 583.021,
+        "enterprise_value_bi": 850.764,
         "acoes_em_circulacao_bi": 5.447,
         "float_acoes_bi": 7.884,
         "beta": -0.231,
@@ -2796,10 +2796,10 @@
         "52w_min": 29.53,
         "media_50d": 50.9744,
         "media_200d": 45.2205,
-        "volume_medio_30d": 50092112,
+        "volume_medio_30d": 50177337,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 62.12
+        "institutional_ownership_pct": 62.15
       },
       "historico_financeiro": {
         "anual": [
@@ -2929,7 +2929,7 @@
         "resumo_negocio": "Marcopolo S.A. engages in the manufacture and sale of buses, bus bodies, and components in Brazil, South Africa, Australia, China, Mexico, Argentina, and internationally. The company offers intercity buses, urban buses and microbuses, electric buses, and hybrid buses; and Volare family of microbuses, such as complete bus, with chassis and body, bodywork for school transport, executive charter, urban transport, and special projects. It is also involved in the development and production of new models on rails; production of units with propulsion, passenger cars, and the manufacture of boxes for people movers, TRAMs, and EMUs; provision of credit solutions for the purchase of buses and minibuses; assembly, marketing, import, and export of refrigeration and air conditioning equipment; and seat foam business. The company was founded in 1949 and is headquartered in Caxias Do Sul, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:59",
+        "data_coleta": "2026-11-20 15:05:32",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -2938,8 +2938,8 @@
         "pe_ratio_forward": 4.126108,
         "pb_ratio": 1.0523255,
         "ps_ratio": 0.502047,
-        "ev_ebitda": 5.405,
-        "ev_receita": 0.743,
+        "ev_ebitda": 5.243,
+        "ev_receita": 0.72,
         "eps_ttm": 0.86,
         "eps_forward": 0.87734,
         "dividend_yield_ttm_pct": 25.41,
@@ -2976,7 +2976,7 @@
       },
       "mercado": {
         "market_cap_bi": 4.464,
-        "enterprise_value_bi": 6.603,
+        "enterprise_value_bi": 6.405,
         "acoes_em_circulacao_bi": 0.782,
         "float_acoes_bi": 0.766,
         "beta": 0.188,
@@ -2984,10 +2984,10 @@
         "52w_min": 3.36,
         "media_50d": 4.2414,
         "media_200d": 5.409,
-        "volume_medio_30d": 20501814,
+        "volume_medio_30d": 20507773,
         "short_ratio": null,
         "insider_ownership_pct": 8.02,
-        "institutional_ownership_pct": 54.61
+        "institutional_ownership_pct": 55.3
       },
       "historico_financeiro": {
         "anual": [
@@ -3108,17 +3108,17 @@
         "resumo_negocio": "Transmissora Aliança de Energia Elétrica S.A., together with its subsidiaries, engages in the construction, operation, and maintenance of electric power transmission lines in Brazil. It operates approximately a total length of 15,319 kilometers (km) of transmission lines, which include 14,677 km of transmission lines in operation and 642 km of lines under construction; 113 substations with voltage between 230 and 525KV; and one system operation center located in Rio de Janeiro. The company was founded in 2000 is headquartered in Rio De Janeiro, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:27:59",
+        "data_coleta": "2026-11-20 15:05:32",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 40.15,
-        "pe_ratio_trailing": 36.83486,
-        "pe_ratio_forward": 9.761755,
-        "pb_ratio": 1.7137614,
-        "ps_ratio": 9.253205,
-        "ev_ebitda": 9.988,
-        "ev_receita": 5.526,
+        "preco_atual": 40.17,
+        "pe_ratio_trailing": 36.853207,
+        "pe_ratio_forward": 9.766617,
+        "pb_ratio": 1.8187168,
+        "ps_ratio": 10.306953,
+        "ev_ebitda": 10.237,
+        "ev_receita": 6.541,
         "eps_ttm": 1.09,
         "eps_forward": 4.11299,
         "dividend_yield_ttm_pct": 7.77,
@@ -3127,46 +3127,46 @@
         "peg_ratio": 6.02
       },
       "rentabilidade": {
-        "gross_margin_pct": 61.16,
-        "operating_margin_pct": 54.38,
-        "profit_margin_pct": 36.48,
-        "roe_pct": 20.86,
-        "roa_pct": 6.9,
-        "roic_pct": 11.23,
-        "crescimento_receita_yoy_pct": -15.4,
-        "crescimento_lucro_yoy_pct": 13.5,
-        "crescimento_eps_qoq_pct": 13.5
+        "gross_margin_pct": 70.44,
+        "operating_margin_pct": 62.75,
+        "profit_margin_pct": 41.11,
+        "roe_pct": 20.87,
+        "roa_pct": 6.67,
+        "roic_pct": 10.53,
+        "crescimento_receita_yoy_pct": -38.7,
+        "crescimento_lucro_yoy_pct": null,
+        "crescimento_eps_qoq_pct": 5.9
       },
       "saude_financeira": {
-        "divida_bruta_bi": 11.015,
-        "divida_liquida_bi": 10.807,
-        "div_liq_sobre_pl": 1.34,
-        "div_liq_sobre_ebitda": 4.36,
-        "div_liq_sobre_ebit": 4.74,
-        "caixa_total_bi": 0.208,
-        "caixa_por_acao": 0.605,
-        "current_ratio": 3.479,
-        "quick_ratio": 2.976,
-        "book_value_por_acao": 23.428,
-        "ebitda_bi": 2.481,
+        "divida_bruta_bi": 13.586,
+        "divida_liquida_bi": 12.51,
+        "div_liq_sobre_pl": 1.64,
+        "div_liq_sobre_ebitda": 4.86,
+        "div_liq_sobre_ebit": 5.49,
+        "caixa_total_bi": 1.076,
+        "caixa_por_acao": 3.124,
+        "current_ratio": 3.697,
+        "quick_ratio": 3.691,
+        "book_value_por_acao": 22.087,
+        "ebitda_bi": 2.574,
         "ebit_bi": 2.279,
-        "free_cash_flow_bi": 0.415,
-        "operating_cash_flow_bi": 1.702
+        "free_cash_flow_bi": 0.105,
+        "operating_cash_flow_bi": 1.829
       },
       "mercado": {
-        "market_cap_bi": 41.495,
-        "enterprise_value_bi": 24.78,
+        "market_cap_bi": 41.516,
+        "enterprise_value_bi": 26.348,
         "acoes_em_circulacao_bi": 0.344,
         "float_acoes_bi": 0.344,
-        "beta": -0.006,
+        "beta": null,
         "52w_max": 46.91,
         "52w_min": 36.8,
         "media_50d": 42.0604,
         "media_200d": 41.3294,
-        "volume_medio_30d": 2357569,
+        "volume_medio_30d": 2352280,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
-        "institutional_ownership_pct": 17.43
+        "institutional_ownership_pct": 17.31
       },
       "historico_financeiro": {
         "anual": [
@@ -3287,20 +3287,20 @@
         "resumo_negocio": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:28:00",
+        "data_coleta": "2026-11-20 15:05:33",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 59.16,
-        "pe_ratio_trailing": 71.27711,
-        "pe_ratio_forward": 6.293928,
-        "pb_ratio": 1.2927474,
-        "ps_ratio": 1.1665244,
-        "ev_ebitda": 4.852,
-        "ev_receita": 1.575,
+        "preco_atual": 58.48,
+        "pe_ratio_trailing": 70.45783,
+        "pe_ratio_forward": 6.2215843,
+        "pb_ratio": 1.2778882,
+        "ps_ratio": 1.1531161,
+        "ev_ebitda": 4.821,
+        "ev_receita": 1.565,
         "eps_ttm": 0.83,
         "eps_forward": 9.399535,
-        "dividend_yield_ttm_pct": 7.39,
+        "dividend_yield_ttm_pct": 7.47,
         "dividendo_por_acao": 4.37,
         "payout_ratio_pct": 508.19,
         "peg_ratio": 0.27
@@ -3333,19 +3333,19 @@
         "operating_cash_flow_bi": 49.852
       },
       "mercado": {
-        "market_cap_bi": 251.771,
-        "enterprise_value_bi": 339.906,
+        "market_cap_bi": 248.877,
+        "enterprise_value_bi": 337.693,
         "acoes_em_circulacao_bi": 4.256,
         "float_acoes_bi": 3.964,
         "beta": 0.73,
         "52w_max": 91.62,
-        "52w_min": 58.79,
+        "52w_min": 58.25,
         "media_50d": 67.2704,
         "media_200d": 76.9845,
-        "volume_medio_30d": 25625790,
+        "volume_medio_30d": 25636052,
         "short_ratio": null,
         "insider_ownership_pct": 6.46,
-        "institutional_ownership_pct": 46.66
+        "institutional_ownership_pct": 46.65
       },
       "historico_financeiro": {
         "anual": [
@@ -3475,17 +3475,17 @@
         "resumo_negocio": "Companhia Siderúrgica Nacional, together with its subsidiaries, operates as an integrated steel producer in Brazil and internationally. It operates through five segments: Steel Industry, Mining, Logistics, Energy, and Cement. The Steel Segment offers produce and sells of flat and long steel. The Mining Segment engages in extraction, processing and marketing of iron ore, tin, limestone, and dolomite. The Logistics Segment supplies railways, port concessions, and road fleet. The Cement Segment produces and sells bagged and bulk cement, as well as aggregates, concrete, and other products. The Energy segment is involved in generation and commercialization of energy originating from renewables. It offers flat steel products, such as hot and cold rolled, galvanized, galvalume, pre-painted, and metal sheets products; coil, sheets, and derivatives; tiles and derivatives, pipes, and profiles; long steel products including, reinforcing bars, iron rods, and laminated profiles; food and chemical packaging solutions; and carbochemical products. It also provides steel cutting services; produces and sells cement; operates railways; and generates electric power from its hydroelectric power plants. In addition, the company offers steel solutions and distributions; packaging; logistics services; and certifications. Companhia Siderúrgica Nacional was founded in 1941 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:28:01",
+        "data_coleta": "2026-11-20 15:05:34",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 3.65,
+        "preco_atual": 3.43,
         "pe_ratio_trailing": null,
-        "pe_ratio_forward": -3.7402906,
-        "pb_ratio": 0.4488993,
-        "ps_ratio": 0.110510595,
-        "ev_ebitda": 8.727,
-        "ev_receita": 1.155,
+        "pe_ratio_forward": -3.5148485,
+        "pb_ratio": 0.42184237,
+        "ps_ratio": 0.10384969,
+        "ev_ebitda": 8.676,
+        "ev_receita": 1.148,
         "eps_ttm": -2.82,
         "eps_forward": -0.97586,
         "dividend_yield_ttm_pct": 0.0,
@@ -3521,16 +3521,16 @@
         "operating_cash_flow_bi": -1.39
       },
       "mercado": {
-        "market_cap_bi": 4.84,
-        "enterprise_value_bi": 50.567,
+        "market_cap_bi": 4.549,
+        "enterprise_value_bi": 50.275,
         "acoes_em_circulacao_bi": 1.326,
         "float_acoes_bi": 0.625,
         "beta": 1.509,
         "52w_max": 11.32,
-        "52w_min": 3.6,
+        "52w_min": 3.43,
         "media_50d": 5.439,
         "media_200d": 5.97835,
-        "volume_medio_30d": 24179011,
+        "volume_medio_30d": 24298055,
         "short_ratio": null,
         "insider_ownership_pct": 52.85,
         "institutional_ownership_pct": 11.29
@@ -3654,23 +3654,23 @@
         "resumo_negocio": "TIM S.A. engages in the telecommunications sector in Brazil. It offers landline switched telephone services in local, national, and international long-distance modes, as well as personal mobile and multimedia communication services. The company is based in Rio de Janeiro, Brazil. TIM S.A. is a subsidiary of TIM Brasil Serviços e Participações S.A."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:28:02",
+        "data_coleta": "2026-11-20 15:05:34",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 21.67,
-        "pe_ratio_trailing": 12.672514,
-        "pe_ratio_forward": 10.223723,
-        "pb_ratio": 2.0402975,
-        "ps_ratio": 1.8552997,
-        "ev_ebitda": 5.482,
-        "ev_receita": 2.282,
+        "preco_atual": 22.0,
+        "pe_ratio_trailing": 12.865497,
+        "pe_ratio_forward": 10.379415,
+        "pb_ratio": 2.071368,
+        "ps_ratio": 1.8835529,
+        "ev_ebitda": 5.441,
+        "ev_receita": 2.264,
         "eps_ttm": 1.71,
         "eps_forward": 2.11958,
-        "dividend_yield_ttm_pct": 6.78,
+        "dividend_yield_ttm_pct": 6.68,
         "dividendo_por_acao": 1.47,
         "payout_ratio_pct": 86.1,
-        "peg_ratio": 1.64
+        "peg_ratio": 1.61
       },
       "rentabilidade": {
         "gross_margin_pct": 54.75,
@@ -3700,8 +3700,8 @@
         "operating_cash_flow_bi": 13.792
       },
       "mercado": {
-        "market_cap_bi": 51.505,
-        "enterprise_value_bi": 63.338,
+        "market_cap_bi": 52.29,
+        "enterprise_value_bi": 62.862,
         "acoes_em_circulacao_bi": 2.377,
         "float_acoes_bi": 2.376,
         "beta": 0.13,
@@ -3709,10 +3709,10 @@
         "52w_min": 16.7,
         "media_50d": 19.4396,
         "media_200d": 22.38685,
-        "volume_medio_30d": 9085451,
+        "volume_medio_30d": 9113191,
         "short_ratio": null,
         "insider_ownership_pct": 67.77,
-        "institutional_ownership_pct": 13.13
+        "institutional_ownership_pct": 13.07
       },
       "historico_financeiro": {
         "anual": [
@@ -3842,17 +3842,17 @@
         "resumo_negocio": "Metalurgica Gerdau S.A., together with its subsidiaries, produces and supplies long steel products in Brazil, the Americas, and internationally. The company offers rebars, profiles, wires, thick plates, hot-rolled coils, billets, blooms, plates, wire rod, structural profiles, and flat steel and iron ore, as well as bars, including special steels. Metalurgica Gerdau S.A.was formerly known as METALÚRGICA HUGO GERDAU S.A and changed its name to Metalurgica Gerdau S.A. in June 1965. Metalurgica Gerdau S.A. was founded in 1901 and is headquartered in São Paulo, Brazil. Metalurgica Gerdau S.A. operates as a subsidiary of Indac - Indústria, Administração e Comércio S.A."
       },
       "meta": {
-        "data_coleta": "2026-11-19 15:28:03",
+        "data_coleta": "2026-11-20 15:05:35",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
-        "preco_atual": 11.49,
-        "pe_ratio_trailing": 15.739725,
-        "pe_ratio_forward": 5.6600986,
-        "pb_ratio": 0.7730086,
-        "ps_ratio": 0.2156926,
-        "ev_ebitda": 5.546,
-        "ev_receita": 0.847,
+        "preco_atual": 11.5,
+        "pe_ratio_trailing": 15.753425,
+        "pe_ratio_forward": 5.6650248,
+        "pb_ratio": 0.77368134,
+        "ps_ratio": 0.21588032,
+        "ev_ebitda": 5.577,
+        "ev_receita": 0.852,
         "eps_ttm": 0.73,
         "eps_forward": 2.03,
         "dividend_yield_ttm_pct": 5.57,
@@ -3888,8 +3888,8 @@
         "operating_cash_flow_bi": 8.897
       },
       "mercado": {
-        "market_cap_bi": 15.153,
-        "enterprise_value_bi": 59.512,
+        "market_cap_bi": 15.166,
+        "enterprise_value_bi": 59.842,
         "acoes_em_circulacao_bi": 0.832,
         "float_acoes_bi": 0.797,
         "beta": 0.777,
@@ -3897,10 +3897,10 @@
         "52w_min": 7.59,
         "media_50d": 11.3252,
         "media_200d": 10.2056,
-        "volume_medio_30d": 12383020,
+        "volume_medio_30d": 12364937,
         "short_ratio": null,
         "insider_ownership_pct": 1.75,
-        "institutional_ownership_pct": 60.29
+        "institutional_ownership_pct": 60.24
       },
       "historico_financeiro": {
         "anual": [
